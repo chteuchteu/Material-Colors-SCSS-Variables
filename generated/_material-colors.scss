@@ -40,6 +40,41 @@ $color-red-A200: map-get($color-red-list, "A200");
 $color-red-A400: map-get($color-red-list, "A400");
 $color-red-A700: map-get($color-red-list, "A700");
 
+// Foreground
+$color-red-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #ffffff,
+    "500":  #ffffff,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #ffffff,
+    "A400": #ffffff,
+    "A700": #ffffff,
+);
+
+$color-red-foreground:      map-get($color-red-list-foreground, "500");
+
+$color-red-50-foreground:   map-get($color-red-list-foreground, "50");
+$color-red-100-foreground:  map-get($color-red-list-foreground, "100");
+$color-red-200-foreground:  map-get($color-red-list-foreground, "200");
+$color-red-300-foreground:  map-get($color-red-list-foreground, "300");
+$color-red-400-foreground:  map-get($color-red-list-foreground, "400");
+$color-red-500-foreground:  map-get($color-red-list-foreground, "500");
+$color-red-600-foreground:  map-get($color-red-list-foreground, "600");
+$color-red-700-foreground:  map-get($color-red-list-foreground, "700");
+$color-red-800-foreground:  map-get($color-red-list-foreground, "800");
+$color-red-900-foreground:  map-get($color-red-list-foreground, "900");
+$color-red-A100-foreground: map-get($color-red-list-foreground, "A100");
+$color-red-A200-foreground: map-get($color-red-list-foreground, "A200");
+$color-red-A400-foreground: map-get($color-red-list-foreground, "A400");
+$color-red-A700-foreground: map-get($color-red-list-foreground, "A700");
+
 
 //
 // Pink
@@ -77,6 +112,41 @@ $color-pink-A100: map-get($color-pink-list, "A100");
 $color-pink-A200: map-get($color-pink-list, "A200");
 $color-pink-A400: map-get($color-pink-list, "A400");
 $color-pink-A700: map-get($color-pink-list, "A700");
+
+// Foreground
+$color-pink-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #ffffff,
+    "400":  #ffffff,
+    "500":  #ffffff,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #ffffff,
+    "A400": #ffffff,
+    "A700": #ffffff,
+);
+
+$color-pink-foreground:      map-get($color-pink-list-foreground, "500");
+
+$color-pink-50-foreground:   map-get($color-pink-list-foreground, "50");
+$color-pink-100-foreground:  map-get($color-pink-list-foreground, "100");
+$color-pink-200-foreground:  map-get($color-pink-list-foreground, "200");
+$color-pink-300-foreground:  map-get($color-pink-list-foreground, "300");
+$color-pink-400-foreground:  map-get($color-pink-list-foreground, "400");
+$color-pink-500-foreground:  map-get($color-pink-list-foreground, "500");
+$color-pink-600-foreground:  map-get($color-pink-list-foreground, "600");
+$color-pink-700-foreground:  map-get($color-pink-list-foreground, "700");
+$color-pink-800-foreground:  map-get($color-pink-list-foreground, "800");
+$color-pink-900-foreground:  map-get($color-pink-list-foreground, "900");
+$color-pink-A100-foreground: map-get($color-pink-list-foreground, "A100");
+$color-pink-A200-foreground: map-get($color-pink-list-foreground, "A200");
+$color-pink-A400-foreground: map-get($color-pink-list-foreground, "A400");
+$color-pink-A700-foreground: map-get($color-pink-list-foreground, "A700");
 
 
 //
@@ -116,6 +186,41 @@ $color-purple-A200: map-get($color-purple-list, "A200");
 $color-purple-A400: map-get($color-purple-list, "A400");
 $color-purple-A700: map-get($color-purple-list, "A700");
 
+// Foreground
+$color-purple-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #ffffff,
+    "400":  #ffffff,
+    "500":  #ffffff,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #ffffff,
+    "A400": #ffffff,
+    "A700": #ffffff,
+);
+
+$color-purple-foreground:      map-get($color-purple-list-foreground, "500");
+
+$color-purple-50-foreground:   map-get($color-purple-list-foreground, "50");
+$color-purple-100-foreground:  map-get($color-purple-list-foreground, "100");
+$color-purple-200-foreground:  map-get($color-purple-list-foreground, "200");
+$color-purple-300-foreground:  map-get($color-purple-list-foreground, "300");
+$color-purple-400-foreground:  map-get($color-purple-list-foreground, "400");
+$color-purple-500-foreground:  map-get($color-purple-list-foreground, "500");
+$color-purple-600-foreground:  map-get($color-purple-list-foreground, "600");
+$color-purple-700-foreground:  map-get($color-purple-list-foreground, "700");
+$color-purple-800-foreground:  map-get($color-purple-list-foreground, "800");
+$color-purple-900-foreground:  map-get($color-purple-list-foreground, "900");
+$color-purple-A100-foreground: map-get($color-purple-list-foreground, "A100");
+$color-purple-A200-foreground: map-get($color-purple-list-foreground, "A200");
+$color-purple-A400-foreground: map-get($color-purple-list-foreground, "A400");
+$color-purple-A700-foreground: map-get($color-purple-list-foreground, "A700");
+
 
 //
 // Deep Purple
@@ -153,6 +258,41 @@ $color-deep-purple-A100: map-get($color-deep-purple-list, "A100");
 $color-deep-purple-A200: map-get($color-deep-purple-list, "A200");
 $color-deep-purple-A400: map-get($color-deep-purple-list, "A400");
 $color-deep-purple-A700: map-get($color-deep-purple-list, "A700");
+
+// Foreground
+$color-deep-purple-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #ffffff,
+    "400":  #ffffff,
+    "500":  #ffffff,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #ffffff,
+    "A400": #ffffff,
+    "A700": #ffffff,
+);
+
+$color-deep-purple-foreground:      map-get($color-deep-purple-list-foreground, "500");
+
+$color-deep-purple-50-foreground:   map-get($color-deep-purple-list-foreground, "50");
+$color-deep-purple-100-foreground:  map-get($color-deep-purple-list-foreground, "100");
+$color-deep-purple-200-foreground:  map-get($color-deep-purple-list-foreground, "200");
+$color-deep-purple-300-foreground:  map-get($color-deep-purple-list-foreground, "300");
+$color-deep-purple-400-foreground:  map-get($color-deep-purple-list-foreground, "400");
+$color-deep-purple-500-foreground:  map-get($color-deep-purple-list-foreground, "500");
+$color-deep-purple-600-foreground:  map-get($color-deep-purple-list-foreground, "600");
+$color-deep-purple-700-foreground:  map-get($color-deep-purple-list-foreground, "700");
+$color-deep-purple-800-foreground:  map-get($color-deep-purple-list-foreground, "800");
+$color-deep-purple-900-foreground:  map-get($color-deep-purple-list-foreground, "900");
+$color-deep-purple-A100-foreground: map-get($color-deep-purple-list-foreground, "A100");
+$color-deep-purple-A200-foreground: map-get($color-deep-purple-list-foreground, "A200");
+$color-deep-purple-A400-foreground: map-get($color-deep-purple-list-foreground, "A400");
+$color-deep-purple-A700-foreground: map-get($color-deep-purple-list-foreground, "A700");
 
 
 //
@@ -192,6 +332,41 @@ $color-indigo-A200: map-get($color-indigo-list, "A200");
 $color-indigo-A400: map-get($color-indigo-list, "A400");
 $color-indigo-A700: map-get($color-indigo-list, "A700");
 
+// Foreground
+$color-indigo-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #ffffff,
+    "400":  #ffffff,
+    "500":  #ffffff,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #ffffff,
+    "A400": #ffffff,
+    "A700": #ffffff,
+);
+
+$color-indigo-foreground:      map-get($color-indigo-list-foreground, "500");
+
+$color-indigo-50-foreground:   map-get($color-indigo-list-foreground, "50");
+$color-indigo-100-foreground:  map-get($color-indigo-list-foreground, "100");
+$color-indigo-200-foreground:  map-get($color-indigo-list-foreground, "200");
+$color-indigo-300-foreground:  map-get($color-indigo-list-foreground, "300");
+$color-indigo-400-foreground:  map-get($color-indigo-list-foreground, "400");
+$color-indigo-500-foreground:  map-get($color-indigo-list-foreground, "500");
+$color-indigo-600-foreground:  map-get($color-indigo-list-foreground, "600");
+$color-indigo-700-foreground:  map-get($color-indigo-list-foreground, "700");
+$color-indigo-800-foreground:  map-get($color-indigo-list-foreground, "800");
+$color-indigo-900-foreground:  map-get($color-indigo-list-foreground, "900");
+$color-indigo-A100-foreground: map-get($color-indigo-list-foreground, "A100");
+$color-indigo-A200-foreground: map-get($color-indigo-list-foreground, "A200");
+$color-indigo-A400-foreground: map-get($color-indigo-list-foreground, "A400");
+$color-indigo-A700-foreground: map-get($color-indigo-list-foreground, "A700");
+
 
 //
 // Blue
@@ -229,6 +404,41 @@ $color-blue-A100: map-get($color-blue-list, "A100");
 $color-blue-A200: map-get($color-blue-list, "A200");
 $color-blue-A400: map-get($color-blue-list, "A400");
 $color-blue-A700: map-get($color-blue-list, "A700");
+
+// Foreground
+$color-blue-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #ffffff,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #ffffff,
+    "A400": #ffffff,
+    "A700": #ffffff,
+);
+
+$color-blue-foreground:      map-get($color-blue-list-foreground, "500");
+
+$color-blue-50-foreground:   map-get($color-blue-list-foreground, "50");
+$color-blue-100-foreground:  map-get($color-blue-list-foreground, "100");
+$color-blue-200-foreground:  map-get($color-blue-list-foreground, "200");
+$color-blue-300-foreground:  map-get($color-blue-list-foreground, "300");
+$color-blue-400-foreground:  map-get($color-blue-list-foreground, "400");
+$color-blue-500-foreground:  map-get($color-blue-list-foreground, "500");
+$color-blue-600-foreground:  map-get($color-blue-list-foreground, "600");
+$color-blue-700-foreground:  map-get($color-blue-list-foreground, "700");
+$color-blue-800-foreground:  map-get($color-blue-list-foreground, "800");
+$color-blue-900-foreground:  map-get($color-blue-list-foreground, "900");
+$color-blue-A100-foreground: map-get($color-blue-list-foreground, "A100");
+$color-blue-A200-foreground: map-get($color-blue-list-foreground, "A200");
+$color-blue-A400-foreground: map-get($color-blue-list-foreground, "A400");
+$color-blue-A700-foreground: map-get($color-blue-list-foreground, "A700");
 
 
 //
@@ -268,6 +478,41 @@ $color-light-blue-A200: map-get($color-light-blue-list, "A200");
 $color-light-blue-A400: map-get($color-light-blue-list, "A400");
 $color-light-blue-A700: map-get($color-light-blue-list, "A700");
 
+// Foreground
+$color-light-blue-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #000000,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #ffffff,
+);
+
+$color-light-blue-foreground:      map-get($color-light-blue-list-foreground, "500");
+
+$color-light-blue-50-foreground:   map-get($color-light-blue-list-foreground, "50");
+$color-light-blue-100-foreground:  map-get($color-light-blue-list-foreground, "100");
+$color-light-blue-200-foreground:  map-get($color-light-blue-list-foreground, "200");
+$color-light-blue-300-foreground:  map-get($color-light-blue-list-foreground, "300");
+$color-light-blue-400-foreground:  map-get($color-light-blue-list-foreground, "400");
+$color-light-blue-500-foreground:  map-get($color-light-blue-list-foreground, "500");
+$color-light-blue-600-foreground:  map-get($color-light-blue-list-foreground, "600");
+$color-light-blue-700-foreground:  map-get($color-light-blue-list-foreground, "700");
+$color-light-blue-800-foreground:  map-get($color-light-blue-list-foreground, "800");
+$color-light-blue-900-foreground:  map-get($color-light-blue-list-foreground, "900");
+$color-light-blue-A100-foreground: map-get($color-light-blue-list-foreground, "A100");
+$color-light-blue-A200-foreground: map-get($color-light-blue-list-foreground, "A200");
+$color-light-blue-A400-foreground: map-get($color-light-blue-list-foreground, "A400");
+$color-light-blue-A700-foreground: map-get($color-light-blue-list-foreground, "A700");
+
 
 //
 // Cyan
@@ -305,6 +550,41 @@ $color-cyan-A100: map-get($color-cyan-list, "A100");
 $color-cyan-A200: map-get($color-cyan-list, "A200");
 $color-cyan-A400: map-get($color-cyan-list, "A400");
 $color-cyan-A700: map-get($color-cyan-list, "A700");
+
+// Foreground
+$color-cyan-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #000000,
+    "600":  #000000,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #000000,
+);
+
+$color-cyan-foreground:      map-get($color-cyan-list-foreground, "500");
+
+$color-cyan-50-foreground:   map-get($color-cyan-list-foreground, "50");
+$color-cyan-100-foreground:  map-get($color-cyan-list-foreground, "100");
+$color-cyan-200-foreground:  map-get($color-cyan-list-foreground, "200");
+$color-cyan-300-foreground:  map-get($color-cyan-list-foreground, "300");
+$color-cyan-400-foreground:  map-get($color-cyan-list-foreground, "400");
+$color-cyan-500-foreground:  map-get($color-cyan-list-foreground, "500");
+$color-cyan-600-foreground:  map-get($color-cyan-list-foreground, "600");
+$color-cyan-700-foreground:  map-get($color-cyan-list-foreground, "700");
+$color-cyan-800-foreground:  map-get($color-cyan-list-foreground, "800");
+$color-cyan-900-foreground:  map-get($color-cyan-list-foreground, "900");
+$color-cyan-A100-foreground: map-get($color-cyan-list-foreground, "A100");
+$color-cyan-A200-foreground: map-get($color-cyan-list-foreground, "A200");
+$color-cyan-A400-foreground: map-get($color-cyan-list-foreground, "A400");
+$color-cyan-A700-foreground: map-get($color-cyan-list-foreground, "A700");
 
 
 //
@@ -344,6 +624,41 @@ $color-teal-A200: map-get($color-teal-list, "A200");
 $color-teal-A400: map-get($color-teal-list, "A400");
 $color-teal-A700: map-get($color-teal-list, "A700");
 
+// Foreground
+$color-teal-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #ffffff,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #000000,
+);
+
+$color-teal-foreground:      map-get($color-teal-list-foreground, "500");
+
+$color-teal-50-foreground:   map-get($color-teal-list-foreground, "50");
+$color-teal-100-foreground:  map-get($color-teal-list-foreground, "100");
+$color-teal-200-foreground:  map-get($color-teal-list-foreground, "200");
+$color-teal-300-foreground:  map-get($color-teal-list-foreground, "300");
+$color-teal-400-foreground:  map-get($color-teal-list-foreground, "400");
+$color-teal-500-foreground:  map-get($color-teal-list-foreground, "500");
+$color-teal-600-foreground:  map-get($color-teal-list-foreground, "600");
+$color-teal-700-foreground:  map-get($color-teal-list-foreground, "700");
+$color-teal-800-foreground:  map-get($color-teal-list-foreground, "800");
+$color-teal-900-foreground:  map-get($color-teal-list-foreground, "900");
+$color-teal-A100-foreground: map-get($color-teal-list-foreground, "A100");
+$color-teal-A200-foreground: map-get($color-teal-list-foreground, "A200");
+$color-teal-A400-foreground: map-get($color-teal-list-foreground, "A400");
+$color-teal-A700-foreground: map-get($color-teal-list-foreground, "A700");
+
 
 //
 // Green
@@ -381,6 +696,41 @@ $color-green-A100: map-get($color-green-list, "A100");
 $color-green-A200: map-get($color-green-list, "A200");
 $color-green-A400: map-get($color-green-list, "A400");
 $color-green-A700: map-get($color-green-list, "A700");
+
+// Foreground
+$color-green-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #000000,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #000000,
+);
+
+$color-green-foreground:      map-get($color-green-list-foreground, "500");
+
+$color-green-50-foreground:   map-get($color-green-list-foreground, "50");
+$color-green-100-foreground:  map-get($color-green-list-foreground, "100");
+$color-green-200-foreground:  map-get($color-green-list-foreground, "200");
+$color-green-300-foreground:  map-get($color-green-list-foreground, "300");
+$color-green-400-foreground:  map-get($color-green-list-foreground, "400");
+$color-green-500-foreground:  map-get($color-green-list-foreground, "500");
+$color-green-600-foreground:  map-get($color-green-list-foreground, "600");
+$color-green-700-foreground:  map-get($color-green-list-foreground, "700");
+$color-green-800-foreground:  map-get($color-green-list-foreground, "800");
+$color-green-900-foreground:  map-get($color-green-list-foreground, "900");
+$color-green-A100-foreground: map-get($color-green-list-foreground, "A100");
+$color-green-A200-foreground: map-get($color-green-list-foreground, "A200");
+$color-green-A400-foreground: map-get($color-green-list-foreground, "A400");
+$color-green-A700-foreground: map-get($color-green-list-foreground, "A700");
 
 
 //
@@ -420,6 +770,41 @@ $color-light-green-A200: map-get($color-light-green-list, "A200");
 $color-light-green-A400: map-get($color-light-green-list, "A400");
 $color-light-green-A700: map-get($color-light-green-list, "A700");
 
+// Foreground
+$color-light-green-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #000000,
+    "600":  #000000,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #000000,
+);
+
+$color-light-green-foreground:      map-get($color-light-green-list-foreground, "500");
+
+$color-light-green-50-foreground:   map-get($color-light-green-list-foreground, "50");
+$color-light-green-100-foreground:  map-get($color-light-green-list-foreground, "100");
+$color-light-green-200-foreground:  map-get($color-light-green-list-foreground, "200");
+$color-light-green-300-foreground:  map-get($color-light-green-list-foreground, "300");
+$color-light-green-400-foreground:  map-get($color-light-green-list-foreground, "400");
+$color-light-green-500-foreground:  map-get($color-light-green-list-foreground, "500");
+$color-light-green-600-foreground:  map-get($color-light-green-list-foreground, "600");
+$color-light-green-700-foreground:  map-get($color-light-green-list-foreground, "700");
+$color-light-green-800-foreground:  map-get($color-light-green-list-foreground, "800");
+$color-light-green-900-foreground:  map-get($color-light-green-list-foreground, "900");
+$color-light-green-A100-foreground: map-get($color-light-green-list-foreground, "A100");
+$color-light-green-A200-foreground: map-get($color-light-green-list-foreground, "A200");
+$color-light-green-A400-foreground: map-get($color-light-green-list-foreground, "A400");
+$color-light-green-A700-foreground: map-get($color-light-green-list-foreground, "A700");
+
 
 //
 // Lime
@@ -457,6 +842,41 @@ $color-lime-A100: map-get($color-lime-list, "A100");
 $color-lime-A200: map-get($color-lime-list, "A200");
 $color-lime-A400: map-get($color-lime-list, "A400");
 $color-lime-A700: map-get($color-lime-list, "A700");
+
+// Foreground
+$color-lime-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #000000,
+    "600":  #000000,
+    "700":  #000000,
+    "800":  #000000,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #000000,
+);
+
+$color-lime-foreground:      map-get($color-lime-list-foreground, "500");
+
+$color-lime-50-foreground:   map-get($color-lime-list-foreground, "50");
+$color-lime-100-foreground:  map-get($color-lime-list-foreground, "100");
+$color-lime-200-foreground:  map-get($color-lime-list-foreground, "200");
+$color-lime-300-foreground:  map-get($color-lime-list-foreground, "300");
+$color-lime-400-foreground:  map-get($color-lime-list-foreground, "400");
+$color-lime-500-foreground:  map-get($color-lime-list-foreground, "500");
+$color-lime-600-foreground:  map-get($color-lime-list-foreground, "600");
+$color-lime-700-foreground:  map-get($color-lime-list-foreground, "700");
+$color-lime-800-foreground:  map-get($color-lime-list-foreground, "800");
+$color-lime-900-foreground:  map-get($color-lime-list-foreground, "900");
+$color-lime-A100-foreground: map-get($color-lime-list-foreground, "A100");
+$color-lime-A200-foreground: map-get($color-lime-list-foreground, "A200");
+$color-lime-A400-foreground: map-get($color-lime-list-foreground, "A400");
+$color-lime-A700-foreground: map-get($color-lime-list-foreground, "A700");
 
 
 //
@@ -496,6 +916,41 @@ $color-yellow-A200: map-get($color-yellow-list, "A200");
 $color-yellow-A400: map-get($color-yellow-list, "A400");
 $color-yellow-A700: map-get($color-yellow-list, "A700");
 
+// Foreground
+$color-yellow-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #000000,
+    "600":  #000000,
+    "700":  #000000,
+    "800":  #000000,
+    "900":  #000000,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #000000,
+);
+
+$color-yellow-foreground:      map-get($color-yellow-list-foreground, "500");
+
+$color-yellow-50-foreground:   map-get($color-yellow-list-foreground, "50");
+$color-yellow-100-foreground:  map-get($color-yellow-list-foreground, "100");
+$color-yellow-200-foreground:  map-get($color-yellow-list-foreground, "200");
+$color-yellow-300-foreground:  map-get($color-yellow-list-foreground, "300");
+$color-yellow-400-foreground:  map-get($color-yellow-list-foreground, "400");
+$color-yellow-500-foreground:  map-get($color-yellow-list-foreground, "500");
+$color-yellow-600-foreground:  map-get($color-yellow-list-foreground, "600");
+$color-yellow-700-foreground:  map-get($color-yellow-list-foreground, "700");
+$color-yellow-800-foreground:  map-get($color-yellow-list-foreground, "800");
+$color-yellow-900-foreground:  map-get($color-yellow-list-foreground, "900");
+$color-yellow-A100-foreground: map-get($color-yellow-list-foreground, "A100");
+$color-yellow-A200-foreground: map-get($color-yellow-list-foreground, "A200");
+$color-yellow-A400-foreground: map-get($color-yellow-list-foreground, "A400");
+$color-yellow-A700-foreground: map-get($color-yellow-list-foreground, "A700");
+
 
 //
 // Amber
@@ -533,6 +988,41 @@ $color-amber-A100: map-get($color-amber-list, "A100");
 $color-amber-A200: map-get($color-amber-list, "A200");
 $color-amber-A400: map-get($color-amber-list, "A400");
 $color-amber-A700: map-get($color-amber-list, "A700");
+
+// Foreground
+$color-amber-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #000000,
+    "600":  #000000,
+    "700":  #000000,
+    "800":  #000000,
+    "900":  #000000,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #000000,
+);
+
+$color-amber-foreground:      map-get($color-amber-list-foreground, "500");
+
+$color-amber-50-foreground:   map-get($color-amber-list-foreground, "50");
+$color-amber-100-foreground:  map-get($color-amber-list-foreground, "100");
+$color-amber-200-foreground:  map-get($color-amber-list-foreground, "200");
+$color-amber-300-foreground:  map-get($color-amber-list-foreground, "300");
+$color-amber-400-foreground:  map-get($color-amber-list-foreground, "400");
+$color-amber-500-foreground:  map-get($color-amber-list-foreground, "500");
+$color-amber-600-foreground:  map-get($color-amber-list-foreground, "600");
+$color-amber-700-foreground:  map-get($color-amber-list-foreground, "700");
+$color-amber-800-foreground:  map-get($color-amber-list-foreground, "800");
+$color-amber-900-foreground:  map-get($color-amber-list-foreground, "900");
+$color-amber-A100-foreground: map-get($color-amber-list-foreground, "A100");
+$color-amber-A200-foreground: map-get($color-amber-list-foreground, "A200");
+$color-amber-A400-foreground: map-get($color-amber-list-foreground, "A400");
+$color-amber-A700-foreground: map-get($color-amber-list-foreground, "A700");
 
 
 //
@@ -572,6 +1062,41 @@ $color-orange-A200: map-get($color-orange-list, "A200");
 $color-orange-A400: map-get($color-orange-list, "A400");
 $color-orange-A700: map-get($color-orange-list, "A700");
 
+// Foreground
+$color-orange-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #000000,
+    "600":  #000000,
+    "700":  #000000,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #000000,
+    "A700": #000000,
+);
+
+$color-orange-foreground:      map-get($color-orange-list-foreground, "500");
+
+$color-orange-50-foreground:   map-get($color-orange-list-foreground, "50");
+$color-orange-100-foreground:  map-get($color-orange-list-foreground, "100");
+$color-orange-200-foreground:  map-get($color-orange-list-foreground, "200");
+$color-orange-300-foreground:  map-get($color-orange-list-foreground, "300");
+$color-orange-400-foreground:  map-get($color-orange-list-foreground, "400");
+$color-orange-500-foreground:  map-get($color-orange-list-foreground, "500");
+$color-orange-600-foreground:  map-get($color-orange-list-foreground, "600");
+$color-orange-700-foreground:  map-get($color-orange-list-foreground, "700");
+$color-orange-800-foreground:  map-get($color-orange-list-foreground, "800");
+$color-orange-900-foreground:  map-get($color-orange-list-foreground, "900");
+$color-orange-A100-foreground: map-get($color-orange-list-foreground, "A100");
+$color-orange-A200-foreground: map-get($color-orange-list-foreground, "A200");
+$color-orange-A400-foreground: map-get($color-orange-list-foreground, "A400");
+$color-orange-A700-foreground: map-get($color-orange-list-foreground, "A700");
+
 
 //
 // Deep Orange
@@ -610,6 +1135,41 @@ $color-deep-orange-A200: map-get($color-deep-orange-list, "A200");
 $color-deep-orange-A400: map-get($color-deep-orange-list, "A400");
 $color-deep-orange-A700: map-get($color-deep-orange-list, "A700");
 
+// Foreground
+$color-deep-orange-list-foreground: (
+    "50":   #000000,
+    "100":  #000000,
+    "200":  #000000,
+    "300":  #000000,
+    "400":  #000000,
+    "500":  #ffffff,
+    "600":  #ffffff,
+    "700":  #ffffff,
+    "800":  #ffffff,
+    "900":  #ffffff,
+    "A100": #000000,
+    "A200": #000000,
+    "A400": #ffffff,
+    "A700": #ffffff,
+);
+
+$color-deep-orange-foreground:      map-get($color-deep-orange-list-foreground, "500");
+
+$color-deep-orange-50-foreground:   map-get($color-deep-orange-list-foreground, "50");
+$color-deep-orange-100-foreground:  map-get($color-deep-orange-list-foreground, "100");
+$color-deep-orange-200-foreground:  map-get($color-deep-orange-list-foreground, "200");
+$color-deep-orange-300-foreground:  map-get($color-deep-orange-list-foreground, "300");
+$color-deep-orange-400-foreground:  map-get($color-deep-orange-list-foreground, "400");
+$color-deep-orange-500-foreground:  map-get($color-deep-orange-list-foreground, "500");
+$color-deep-orange-600-foreground:  map-get($color-deep-orange-list-foreground, "600");
+$color-deep-orange-700-foreground:  map-get($color-deep-orange-list-foreground, "700");
+$color-deep-orange-800-foreground:  map-get($color-deep-orange-list-foreground, "800");
+$color-deep-orange-900-foreground:  map-get($color-deep-orange-list-foreground, "900");
+$color-deep-orange-A100-foreground: map-get($color-deep-orange-list-foreground, "A100");
+$color-deep-orange-A200-foreground: map-get($color-deep-orange-list-foreground, "A200");
+$color-deep-orange-A400-foreground: map-get($color-deep-orange-list-foreground, "A400");
+$color-deep-orange-A700-foreground: map-get($color-deep-orange-list-foreground, "A700");
+
 
 //
 // Brown
@@ -639,6 +1199,33 @@ $color-brown-600: map-get($color-brown-list, "600");
 $color-brown-700: map-get($color-brown-list, "700");
 $color-brown-800: map-get($color-brown-list, "800");
 $color-brown-900: map-get($color-brown-list, "900");
+
+// Foreground
+$color-brown-list-foreground: (
+    "50":  #000000,
+    "100": #000000,
+    "200": #000000,
+    "300": #ffffff,
+    "400": #ffffff,
+    "500": #ffffff,
+    "600": #ffffff,
+    "700": #ffffff,
+    "800": #ffffff,
+    "900": #ffffff,
+);
+
+$color-brown-foreground:     map-get($color-brown-list-foreground, "500");
+
+$color-brown-50-foreground:  map-get($color-brown-list-foreground, "50");
+$color-brown-100-foreground: map-get($color-brown-list-foreground, "100");
+$color-brown-200-foreground: map-get($color-brown-list-foreground, "200");
+$color-brown-300-foreground: map-get($color-brown-list-foreground, "300");
+$color-brown-400-foreground: map-get($color-brown-list-foreground, "400");
+$color-brown-500-foreground: map-get($color-brown-list-foreground, "500");
+$color-brown-600-foreground: map-get($color-brown-list-foreground, "600");
+$color-brown-700-foreground: map-get($color-brown-list-foreground, "700");
+$color-brown-800-foreground: map-get($color-brown-list-foreground, "800");
+$color-brown-900-foreground: map-get($color-brown-list-foreground, "900");
 
 
 //
@@ -670,6 +1257,33 @@ $color-grey-700: map-get($color-grey-list, "700");
 $color-grey-800: map-get($color-grey-list, "800");
 $color-grey-900: map-get($color-grey-list, "900");
 
+// Foreground
+$color-grey-list-foreground: (
+    "50":  #000000,
+    "100": #000000,
+    "200": #000000,
+    "300": #000000,
+    "400": #000000,
+    "500": #000000,
+    "600": #ffffff,
+    "700": #ffffff,
+    "800": #ffffff,
+    "900": #ffffff,
+);
+
+$color-grey-foreground:     map-get($color-grey-list-foreground, "500");
+
+$color-grey-50-foreground:  map-get($color-grey-list-foreground, "50");
+$color-grey-100-foreground: map-get($color-grey-list-foreground, "100");
+$color-grey-200-foreground: map-get($color-grey-list-foreground, "200");
+$color-grey-300-foreground: map-get($color-grey-list-foreground, "300");
+$color-grey-400-foreground: map-get($color-grey-list-foreground, "400");
+$color-grey-500-foreground: map-get($color-grey-list-foreground, "500");
+$color-grey-600-foreground: map-get($color-grey-list-foreground, "600");
+$color-grey-700-foreground: map-get($color-grey-list-foreground, "700");
+$color-grey-800-foreground: map-get($color-grey-list-foreground, "800");
+$color-grey-900-foreground: map-get($color-grey-list-foreground, "900");
+
 
 //
 // Blue Grey
@@ -699,5 +1313,32 @@ $color-blue-grey-600: map-get($color-blue-grey-list, "600");
 $color-blue-grey-700: map-get($color-blue-grey-list, "700");
 $color-blue-grey-800: map-get($color-blue-grey-list, "800");
 $color-blue-grey-900: map-get($color-blue-grey-list, "900");
+
+// Foreground
+$color-blue-grey-list-foreground: (
+    "50":  #000000,
+    "100": #000000,
+    "200": #000000,
+    "300": #000000,
+    "400": #ffffff,
+    "500": #ffffff,
+    "600": #ffffff,
+    "700": #ffffff,
+    "800": #ffffff,
+    "900": #ffffff,
+);
+
+$color-blue-grey-foreground:     map-get($color-blue-grey-list-foreground, "500");
+
+$color-blue-grey-50-foreground:  map-get($color-blue-grey-list-foreground, "50");
+$color-blue-grey-100-foreground: map-get($color-blue-grey-list-foreground, "100");
+$color-blue-grey-200-foreground: map-get($color-blue-grey-list-foreground, "200");
+$color-blue-grey-300-foreground: map-get($color-blue-grey-list-foreground, "300");
+$color-blue-grey-400-foreground: map-get($color-blue-grey-list-foreground, "400");
+$color-blue-grey-500-foreground: map-get($color-blue-grey-list-foreground, "500");
+$color-blue-grey-600-foreground: map-get($color-blue-grey-list-foreground, "600");
+$color-blue-grey-700-foreground: map-get($color-blue-grey-list-foreground, "700");
+$color-blue-grey-800-foreground: map-get($color-blue-grey-list-foreground, "800");
+$color-blue-grey-900-foreground: map-get($color-blue-grey-list-foreground, "900");
 
 

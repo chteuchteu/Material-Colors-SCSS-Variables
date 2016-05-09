@@ -120,4 +120,41 @@ with open(output_file, 'w') as output:
                 'color_list_name': list_name
             }))
 
+        # Foreground color
+        foreground_color_list_name = list_name + '-foreground'
+        output.writelines('\n'.join([
+            '',
+            '// Foreground',
+            foreground_color_list_name + ': (\n'
+        ]))
+
+        for shade in shades:
+            output.write(fill_placeholders(pattern_list_item, {
+                'shade_name': shade['name'],
+                'indent': ' ' * (longest_key - len(shade['name'])),
+                'hex': shade['foreground']
+            }))
+
+        output.write(');\n\n')
+
+        # Separate colors
+        pattern_variable_foreground = '$color-{var_name}-foreground: {indent}map-get({foreground_color_list_name}, "{shade_name}");\n'
+
+        # Main shade
+        output.write(fill_placeholders(pattern_variable_foreground, {
+            'var_name': color_slug,
+            'shade_name': main_shade['name'],
+            'indent': ' ' * (longest_key + 1),
+            'foreground_color_list_name': foreground_color_list_name
+        }))
+        output.write('\n')
+
+        for shade in shades:
+            output.write(fill_placeholders(pattern_variable_foreground, {
+                'var_name': color_slug + '-' + shade['name'],
+                'shade_name': shade['name'],
+                'indent': ' ' * (longest_key - len(shade['name'])),
+                'foreground_color_list_name': foreground_color_list_name
+            }))
+
         output.write('\n\n')
