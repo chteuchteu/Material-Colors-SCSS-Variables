@@ -1,0 +1,703 @@
+/**
+ * Material-Colors-SCSS-Variables
+ * https://github.com/chteuchteu/Material-Colors-SCSS-Variables
+ */
+
+//
+// Red
+//
+$color-red-list: (
+    "50":   #ffebee,
+    "100":  #ffcdd2,
+    "200":  #ef9a9a,
+    "300":  #e57373,
+    "400":  #ef5350,
+    "500":  #f44336,
+    "600":  #e53935,
+    "700":  #d32f2f,
+    "800":  #c62828,
+    "900":  #b71c1c,
+    "A100": #ff8a80,
+    "A200": #ff5252,
+    "A400": #ff1744,
+    "A700": #d50000,
+);
+
+$color-red:      map-get($color-red-list, "500");
+
+$color-red-50:   map-get($color-red-list, "50");
+$color-red-100:  map-get($color-red-list, "100");
+$color-red-200:  map-get($color-red-list, "200");
+$color-red-300:  map-get($color-red-list, "300");
+$color-red-400:  map-get($color-red-list, "400");
+$color-red-500:  map-get($color-red-list, "500");
+$color-red-600:  map-get($color-red-list, "600");
+$color-red-700:  map-get($color-red-list, "700");
+$color-red-800:  map-get($color-red-list, "800");
+$color-red-900:  map-get($color-red-list, "900");
+$color-red-A100: map-get($color-red-list, "A100");
+$color-red-A200: map-get($color-red-list, "A200");
+$color-red-A400: map-get($color-red-list, "A400");
+$color-red-A700: map-get($color-red-list, "A700");
+
+
+//
+// Pink
+//
+$color-pink-list: (
+    "50":   #fce4ec,
+    "100":  #f8bbd0,
+    "200":  #f48fb1,
+    "300":  #f06292,
+    "400":  #ec407a,
+    "500":  #e91e63,
+    "600":  #d81b60,
+    "700":  #c2185b,
+    "800":  #ad1457,
+    "900":  #880e4f,
+    "A100": #ff80ab,
+    "A200": #ff4081,
+    "A400": #f50057,
+    "A700": #c51162,
+);
+
+$color-pink:      map-get($color-pink-list, "500");
+
+$color-pink-50:   map-get($color-pink-list, "50");
+$color-pink-100:  map-get($color-pink-list, "100");
+$color-pink-200:  map-get($color-pink-list, "200");
+$color-pink-300:  map-get($color-pink-list, "300");
+$color-pink-400:  map-get($color-pink-list, "400");
+$color-pink-500:  map-get($color-pink-list, "500");
+$color-pink-600:  map-get($color-pink-list, "600");
+$color-pink-700:  map-get($color-pink-list, "700");
+$color-pink-800:  map-get($color-pink-list, "800");
+$color-pink-900:  map-get($color-pink-list, "900");
+$color-pink-A100: map-get($color-pink-list, "A100");
+$color-pink-A200: map-get($color-pink-list, "A200");
+$color-pink-A400: map-get($color-pink-list, "A400");
+$color-pink-A700: map-get($color-pink-list, "A700");
+
+
+//
+// Purple
+//
+$color-purple-list: (
+    "50":   #f3e5f5,
+    "100":  #e1bee7,
+    "200":  #ce93d8,
+    "300":  #ba68c8,
+    "400":  #ab47bc,
+    "500":  #9c27b0,
+    "600":  #8e24aa,
+    "700":  #7b1fa2,
+    "800":  #6a1b9a,
+    "900":  #4a148c,
+    "A100": #ea80fc,
+    "A200": #e040fb,
+    "A400": #d500f9,
+    "A700": #aa00ff,
+);
+
+$color-purple:      map-get($color-purple-list, "500");
+
+$color-purple-50:   map-get($color-purple-list, "50");
+$color-purple-100:  map-get($color-purple-list, "100");
+$color-purple-200:  map-get($color-purple-list, "200");
+$color-purple-300:  map-get($color-purple-list, "300");
+$color-purple-400:  map-get($color-purple-list, "400");
+$color-purple-500:  map-get($color-purple-list, "500");
+$color-purple-600:  map-get($color-purple-list, "600");
+$color-purple-700:  map-get($color-purple-list, "700");
+$color-purple-800:  map-get($color-purple-list, "800");
+$color-purple-900:  map-get($color-purple-list, "900");
+$color-purple-A100: map-get($color-purple-list, "A100");
+$color-purple-A200: map-get($color-purple-list, "A200");
+$color-purple-A400: map-get($color-purple-list, "A400");
+$color-purple-A700: map-get($color-purple-list, "A700");
+
+
+//
+// Deep Purple
+//
+$color-deep-purple-list: (
+    "50":   #ede7f6,
+    "100":  #d1c4e9,
+    "200":  #b39ddb,
+    "300":  #9575cd,
+    "400":  #7e57c2,
+    "500":  #673ab7,
+    "600":  #5e35b1,
+    "700":  #512da8,
+    "800":  #4527a0,
+    "900":  #311b92,
+    "A100": #b388ff,
+    "A200": #7c4dff,
+    "A400": #651fff,
+    "A700": #6200ea,
+);
+
+$color-deep-purple:      map-get($color-deep-purple-list, "500");
+
+$color-deep-purple-50:   map-get($color-deep-purple-list, "50");
+$color-deep-purple-100:  map-get($color-deep-purple-list, "100");
+$color-deep-purple-200:  map-get($color-deep-purple-list, "200");
+$color-deep-purple-300:  map-get($color-deep-purple-list, "300");
+$color-deep-purple-400:  map-get($color-deep-purple-list, "400");
+$color-deep-purple-500:  map-get($color-deep-purple-list, "500");
+$color-deep-purple-600:  map-get($color-deep-purple-list, "600");
+$color-deep-purple-700:  map-get($color-deep-purple-list, "700");
+$color-deep-purple-800:  map-get($color-deep-purple-list, "800");
+$color-deep-purple-900:  map-get($color-deep-purple-list, "900");
+$color-deep-purple-A100: map-get($color-deep-purple-list, "A100");
+$color-deep-purple-A200: map-get($color-deep-purple-list, "A200");
+$color-deep-purple-A400: map-get($color-deep-purple-list, "A400");
+$color-deep-purple-A700: map-get($color-deep-purple-list, "A700");
+
+
+//
+// Indigo
+//
+$color-indigo-list: (
+    "50":   #e8eaf6,
+    "100":  #c5cae9,
+    "200":  #9fa8da,
+    "300":  #7986cb,
+    "400":  #5c6bc0,
+    "500":  #3f51b5,
+    "600":  #3949ab,
+    "700":  #303f9f,
+    "800":  #283593,
+    "900":  #1a237e,
+    "A100": #8c9eff,
+    "A200": #536dfe,
+    "A400": #3d5afe,
+    "A700": #304ffe,
+);
+
+$color-indigo:      map-get($color-indigo-list, "500");
+
+$color-indigo-50:   map-get($color-indigo-list, "50");
+$color-indigo-100:  map-get($color-indigo-list, "100");
+$color-indigo-200:  map-get($color-indigo-list, "200");
+$color-indigo-300:  map-get($color-indigo-list, "300");
+$color-indigo-400:  map-get($color-indigo-list, "400");
+$color-indigo-500:  map-get($color-indigo-list, "500");
+$color-indigo-600:  map-get($color-indigo-list, "600");
+$color-indigo-700:  map-get($color-indigo-list, "700");
+$color-indigo-800:  map-get($color-indigo-list, "800");
+$color-indigo-900:  map-get($color-indigo-list, "900");
+$color-indigo-A100: map-get($color-indigo-list, "A100");
+$color-indigo-A200: map-get($color-indigo-list, "A200");
+$color-indigo-A400: map-get($color-indigo-list, "A400");
+$color-indigo-A700: map-get($color-indigo-list, "A700");
+
+
+//
+// Blue
+//
+$color-blue-list: (
+    "50":   #e3f2fd,
+    "100":  #bbdefb,
+    "200":  #90caf9,
+    "300":  #64b5f6,
+    "400":  #42a5f5,
+    "500":  #2196f3,
+    "600":  #1e88e5,
+    "700":  #1976d2,
+    "800":  #1565c0,
+    "900":  #0d47a1,
+    "A100": #82b1ff,
+    "A200": #448aff,
+    "A400": #2979ff,
+    "A700": #2962ff,
+);
+
+$color-blue:      map-get($color-blue-list, "500");
+
+$color-blue-50:   map-get($color-blue-list, "50");
+$color-blue-100:  map-get($color-blue-list, "100");
+$color-blue-200:  map-get($color-blue-list, "200");
+$color-blue-300:  map-get($color-blue-list, "300");
+$color-blue-400:  map-get($color-blue-list, "400");
+$color-blue-500:  map-get($color-blue-list, "500");
+$color-blue-600:  map-get($color-blue-list, "600");
+$color-blue-700:  map-get($color-blue-list, "700");
+$color-blue-800:  map-get($color-blue-list, "800");
+$color-blue-900:  map-get($color-blue-list, "900");
+$color-blue-A100: map-get($color-blue-list, "A100");
+$color-blue-A200: map-get($color-blue-list, "A200");
+$color-blue-A400: map-get($color-blue-list, "A400");
+$color-blue-A700: map-get($color-blue-list, "A700");
+
+
+//
+// Light Blue
+//
+$color-light-blue-list: (
+    "50":   #e1f5fe,
+    "100":  #b3e5fc,
+    "200":  #81d4fa,
+    "300":  #4fc3f7,
+    "400":  #29b6f6,
+    "500":  #03a9f4,
+    "600":  #039be5,
+    "700":  #0288d1,
+    "800":  #0277bd,
+    "900":  #01579b,
+    "A100": #80d8ff,
+    "A200": #40c4ff,
+    "A400": #00b0ff,
+    "A700": #0091ea,
+);
+
+$color-light-blue:      map-get($color-light-blue-list, "500");
+
+$color-light-blue-50:   map-get($color-light-blue-list, "50");
+$color-light-blue-100:  map-get($color-light-blue-list, "100");
+$color-light-blue-200:  map-get($color-light-blue-list, "200");
+$color-light-blue-300:  map-get($color-light-blue-list, "300");
+$color-light-blue-400:  map-get($color-light-blue-list, "400");
+$color-light-blue-500:  map-get($color-light-blue-list, "500");
+$color-light-blue-600:  map-get($color-light-blue-list, "600");
+$color-light-blue-700:  map-get($color-light-blue-list, "700");
+$color-light-blue-800:  map-get($color-light-blue-list, "800");
+$color-light-blue-900:  map-get($color-light-blue-list, "900");
+$color-light-blue-A100: map-get($color-light-blue-list, "A100");
+$color-light-blue-A200: map-get($color-light-blue-list, "A200");
+$color-light-blue-A400: map-get($color-light-blue-list, "A400");
+$color-light-blue-A700: map-get($color-light-blue-list, "A700");
+
+
+//
+// Cyan
+//
+$color-cyan-list: (
+    "50":   #e0f7fa,
+    "100":  #b2ebf2,
+    "200":  #80deea,
+    "300":  #4dd0e1,
+    "400":  #26c6da,
+    "500":  #00bcd4,
+    "600":  #00acc1,
+    "700":  #0097a7,
+    "800":  #00838f,
+    "900":  #006064,
+    "A100": #84ffff,
+    "A200": #18ffff,
+    "A400": #00e5ff,
+    "A700": #00b8d4,
+);
+
+$color-cyan:      map-get($color-cyan-list, "500");
+
+$color-cyan-50:   map-get($color-cyan-list, "50");
+$color-cyan-100:  map-get($color-cyan-list, "100");
+$color-cyan-200:  map-get($color-cyan-list, "200");
+$color-cyan-300:  map-get($color-cyan-list, "300");
+$color-cyan-400:  map-get($color-cyan-list, "400");
+$color-cyan-500:  map-get($color-cyan-list, "500");
+$color-cyan-600:  map-get($color-cyan-list, "600");
+$color-cyan-700:  map-get($color-cyan-list, "700");
+$color-cyan-800:  map-get($color-cyan-list, "800");
+$color-cyan-900:  map-get($color-cyan-list, "900");
+$color-cyan-A100: map-get($color-cyan-list, "A100");
+$color-cyan-A200: map-get($color-cyan-list, "A200");
+$color-cyan-A400: map-get($color-cyan-list, "A400");
+$color-cyan-A700: map-get($color-cyan-list, "A700");
+
+
+//
+// Teal
+//
+$color-teal-list: (
+    "50":   #e0f2f1,
+    "100":  #b2dfdb,
+    "200":  #80cbc4,
+    "300":  #4db6ac,
+    "400":  #26a69a,
+    "500":  #009688,
+    "600":  #00897b,
+    "700":  #00796b,
+    "800":  #00695c,
+    "900":  #004d40,
+    "A100": #a7ffeb,
+    "A200": #64ffda,
+    "A400": #1de9b6,
+    "A700": #00bfa5,
+);
+
+$color-teal:      map-get($color-teal-list, "500");
+
+$color-teal-50:   map-get($color-teal-list, "50");
+$color-teal-100:  map-get($color-teal-list, "100");
+$color-teal-200:  map-get($color-teal-list, "200");
+$color-teal-300:  map-get($color-teal-list, "300");
+$color-teal-400:  map-get($color-teal-list, "400");
+$color-teal-500:  map-get($color-teal-list, "500");
+$color-teal-600:  map-get($color-teal-list, "600");
+$color-teal-700:  map-get($color-teal-list, "700");
+$color-teal-800:  map-get($color-teal-list, "800");
+$color-teal-900:  map-get($color-teal-list, "900");
+$color-teal-A100: map-get($color-teal-list, "A100");
+$color-teal-A200: map-get($color-teal-list, "A200");
+$color-teal-A400: map-get($color-teal-list, "A400");
+$color-teal-A700: map-get($color-teal-list, "A700");
+
+
+//
+// Green
+//
+$color-green-list: (
+    "50":   #e8f5e9,
+    "100":  #c8e6c9,
+    "200":  #a5d6a7,
+    "300":  #81c784,
+    "400":  #66bb6a,
+    "500":  #4caf50,
+    "600":  #43a047,
+    "700":  #388e3c,
+    "800":  #2e7d32,
+    "900":  #1b5e20,
+    "A100": #b9f6ca,
+    "A200": #69f0ae,
+    "A400": #00e676,
+    "A700": #00c853,
+);
+
+$color-green:      map-get($color-green-list, "500");
+
+$color-green-50:   map-get($color-green-list, "50");
+$color-green-100:  map-get($color-green-list, "100");
+$color-green-200:  map-get($color-green-list, "200");
+$color-green-300:  map-get($color-green-list, "300");
+$color-green-400:  map-get($color-green-list, "400");
+$color-green-500:  map-get($color-green-list, "500");
+$color-green-600:  map-get($color-green-list, "600");
+$color-green-700:  map-get($color-green-list, "700");
+$color-green-800:  map-get($color-green-list, "800");
+$color-green-900:  map-get($color-green-list, "900");
+$color-green-A100: map-get($color-green-list, "A100");
+$color-green-A200: map-get($color-green-list, "A200");
+$color-green-A400: map-get($color-green-list, "A400");
+$color-green-A700: map-get($color-green-list, "A700");
+
+
+//
+// Light Green
+//
+$color-light-green-list: (
+    "50":   #f1f8e9,
+    "100":  #dcedc8,
+    "200":  #c5e1a5,
+    "300":  #aed581,
+    "400":  #9ccc65,
+    "500":  #8bc34a,
+    "600":  #7cb342,
+    "700":  #689f38,
+    "800":  #558b2f,
+    "900":  #33691e,
+    "A100": #ccff90,
+    "A200": #b2ff59,
+    "A400": #76ff03,
+    "A700": #64dd17,
+);
+
+$color-light-green:      map-get($color-light-green-list, "500");
+
+$color-light-green-50:   map-get($color-light-green-list, "50");
+$color-light-green-100:  map-get($color-light-green-list, "100");
+$color-light-green-200:  map-get($color-light-green-list, "200");
+$color-light-green-300:  map-get($color-light-green-list, "300");
+$color-light-green-400:  map-get($color-light-green-list, "400");
+$color-light-green-500:  map-get($color-light-green-list, "500");
+$color-light-green-600:  map-get($color-light-green-list, "600");
+$color-light-green-700:  map-get($color-light-green-list, "700");
+$color-light-green-800:  map-get($color-light-green-list, "800");
+$color-light-green-900:  map-get($color-light-green-list, "900");
+$color-light-green-A100: map-get($color-light-green-list, "A100");
+$color-light-green-A200: map-get($color-light-green-list, "A200");
+$color-light-green-A400: map-get($color-light-green-list, "A400");
+$color-light-green-A700: map-get($color-light-green-list, "A700");
+
+
+//
+// Lime
+//
+$color-lime-list: (
+    "50":   #f9fbe7,
+    "100":  #f0f4c3,
+    "200":  #e6ee9c,
+    "300":  #dce775,
+    "400":  #d4e157,
+    "500":  #cddc39,
+    "600":  #c0ca33,
+    "700":  #afb42b,
+    "800":  #9e9d24,
+    "900":  #827717,
+    "A100": #f4ff81,
+    "A200": #eeff41,
+    "A400": #c6ff00,
+    "A700": #aeea00,
+);
+
+$color-lime:      map-get($color-lime-list, "500");
+
+$color-lime-50:   map-get($color-lime-list, "50");
+$color-lime-100:  map-get($color-lime-list, "100");
+$color-lime-200:  map-get($color-lime-list, "200");
+$color-lime-300:  map-get($color-lime-list, "300");
+$color-lime-400:  map-get($color-lime-list, "400");
+$color-lime-500:  map-get($color-lime-list, "500");
+$color-lime-600:  map-get($color-lime-list, "600");
+$color-lime-700:  map-get($color-lime-list, "700");
+$color-lime-800:  map-get($color-lime-list, "800");
+$color-lime-900:  map-get($color-lime-list, "900");
+$color-lime-A100: map-get($color-lime-list, "A100");
+$color-lime-A200: map-get($color-lime-list, "A200");
+$color-lime-A400: map-get($color-lime-list, "A400");
+$color-lime-A700: map-get($color-lime-list, "A700");
+
+
+//
+// Yellow
+//
+$color-yellow-list: (
+    "50":   #fffde7,
+    "100":  #fff9c4,
+    "200":  #fff59d,
+    "300":  #fff176,
+    "400":  #ffee58,
+    "500":  #ffeb3b,
+    "600":  #fdd835,
+    "700":  #fbc02d,
+    "800":  #f9a825,
+    "900":  #f57f17,
+    "A100": #ffff8d,
+    "A200": #ffff00,
+    "A400": #ffea00,
+    "A700": #ffd600,
+);
+
+$color-yellow:      map-get($color-yellow-list, "500");
+
+$color-yellow-50:   map-get($color-yellow-list, "50");
+$color-yellow-100:  map-get($color-yellow-list, "100");
+$color-yellow-200:  map-get($color-yellow-list, "200");
+$color-yellow-300:  map-get($color-yellow-list, "300");
+$color-yellow-400:  map-get($color-yellow-list, "400");
+$color-yellow-500:  map-get($color-yellow-list, "500");
+$color-yellow-600:  map-get($color-yellow-list, "600");
+$color-yellow-700:  map-get($color-yellow-list, "700");
+$color-yellow-800:  map-get($color-yellow-list, "800");
+$color-yellow-900:  map-get($color-yellow-list, "900");
+$color-yellow-A100: map-get($color-yellow-list, "A100");
+$color-yellow-A200: map-get($color-yellow-list, "A200");
+$color-yellow-A400: map-get($color-yellow-list, "A400");
+$color-yellow-A700: map-get($color-yellow-list, "A700");
+
+
+//
+// Amber
+//
+$color-amber-list: (
+    "50":   #fff8e1,
+    "100":  #ffecb3,
+    "200":  #ffe082,
+    "300":  #ffd54f,
+    "400":  #ffca28,
+    "500":  #ffc107,
+    "600":  #ffb300,
+    "700":  #ffa000,
+    "800":  #ff8f00,
+    "900":  #ff6f00,
+    "A100": #ffe57f,
+    "A200": #ffd740,
+    "A400": #ffc400,
+    "A700": #ffab00,
+);
+
+$color-amber:      map-get($color-amber-list, "500");
+
+$color-amber-50:   map-get($color-amber-list, "50");
+$color-amber-100:  map-get($color-amber-list, "100");
+$color-amber-200:  map-get($color-amber-list, "200");
+$color-amber-300:  map-get($color-amber-list, "300");
+$color-amber-400:  map-get($color-amber-list, "400");
+$color-amber-500:  map-get($color-amber-list, "500");
+$color-amber-600:  map-get($color-amber-list, "600");
+$color-amber-700:  map-get($color-amber-list, "700");
+$color-amber-800:  map-get($color-amber-list, "800");
+$color-amber-900:  map-get($color-amber-list, "900");
+$color-amber-A100: map-get($color-amber-list, "A100");
+$color-amber-A200: map-get($color-amber-list, "A200");
+$color-amber-A400: map-get($color-amber-list, "A400");
+$color-amber-A700: map-get($color-amber-list, "A700");
+
+
+//
+// Orange
+//
+$color-orange-list: (
+    "50":   #fff3e0,
+    "100":  #ffe0b2,
+    "200":  #ffcc80,
+    "300":  #ffb74d,
+    "400":  #ffa726,
+    "500":  #ff9800,
+    "600":  #fb8c00,
+    "700":  #f57c00,
+    "800":  #ef6c00,
+    "900":  #e65100,
+    "A100": #ffd180,
+    "A200": #ffab40,
+    "A400": #ff9100,
+    "A700": #ff6d00,
+);
+
+$color-orange:      map-get($color-orange-list, "500");
+
+$color-orange-50:   map-get($color-orange-list, "50");
+$color-orange-100:  map-get($color-orange-list, "100");
+$color-orange-200:  map-get($color-orange-list, "200");
+$color-orange-300:  map-get($color-orange-list, "300");
+$color-orange-400:  map-get($color-orange-list, "400");
+$color-orange-500:  map-get($color-orange-list, "500");
+$color-orange-600:  map-get($color-orange-list, "600");
+$color-orange-700:  map-get($color-orange-list, "700");
+$color-orange-800:  map-get($color-orange-list, "800");
+$color-orange-900:  map-get($color-orange-list, "900");
+$color-orange-A100: map-get($color-orange-list, "A100");
+$color-orange-A200: map-get($color-orange-list, "A200");
+$color-orange-A400: map-get($color-orange-list, "A400");
+$color-orange-A700: map-get($color-orange-list, "A700");
+
+
+//
+// Deep Orange
+//
+$color-deep-orange-list: (
+    "50":   #fbe9e7,
+    "100":  #ffccbc,
+    "200":  #ffab91,
+    "300":  #ff8a65,
+    "400":  #ff7043,
+    "500":  #ff5722,
+    "600":  #f4511e,
+    "700":  #e64a19,
+    "800":  #d84315,
+    "900":  #bf360c,
+    "A100": #ff9e80,
+    "A200": #ff6e40,
+    "A400": #ff3d00,
+    "A700": #dd2c00,
+);
+
+$color-deep-orange:      map-get($color-deep-orange-list, "500");
+
+$color-deep-orange-50:   map-get($color-deep-orange-list, "50");
+$color-deep-orange-100:  map-get($color-deep-orange-list, "100");
+$color-deep-orange-200:  map-get($color-deep-orange-list, "200");
+$color-deep-orange-300:  map-get($color-deep-orange-list, "300");
+$color-deep-orange-400:  map-get($color-deep-orange-list, "400");
+$color-deep-orange-500:  map-get($color-deep-orange-list, "500");
+$color-deep-orange-600:  map-get($color-deep-orange-list, "600");
+$color-deep-orange-700:  map-get($color-deep-orange-list, "700");
+$color-deep-orange-800:  map-get($color-deep-orange-list, "800");
+$color-deep-orange-900:  map-get($color-deep-orange-list, "900");
+$color-deep-orange-A100: map-get($color-deep-orange-list, "A100");
+$color-deep-orange-A200: map-get($color-deep-orange-list, "A200");
+$color-deep-orange-A400: map-get($color-deep-orange-list, "A400");
+$color-deep-orange-A700: map-get($color-deep-orange-list, "A700");
+
+
+//
+// Brown
+//
+$color-brown-list: (
+    "50":  #efebe9,
+    "100": #d7ccc8,
+    "200": #bcaaa4,
+    "300": #a1887f,
+    "400": #8d6e63,
+    "500": #795548,
+    "600": #6d4c41,
+    "700": #5d4037,
+    "800": #4e342e,
+    "900": #3e2723,
+);
+
+$color-brown:     map-get($color-brown-list, "500");
+
+$color-brown-50:  map-get($color-brown-list, "50");
+$color-brown-100: map-get($color-brown-list, "100");
+$color-brown-200: map-get($color-brown-list, "200");
+$color-brown-300: map-get($color-brown-list, "300");
+$color-brown-400: map-get($color-brown-list, "400");
+$color-brown-500: map-get($color-brown-list, "500");
+$color-brown-600: map-get($color-brown-list, "600");
+$color-brown-700: map-get($color-brown-list, "700");
+$color-brown-800: map-get($color-brown-list, "800");
+$color-brown-900: map-get($color-brown-list, "900");
+
+
+//
+// Grey
+//
+$color-grey-list: (
+    "50":  #fafafa,
+    "100": #f5f5f5,
+    "200": #eeeeee,
+    "300": #e0e0e0,
+    "400": #bdbdbd,
+    "500": #9e9e9e,
+    "600": #757575,
+    "700": #616161,
+    "800": #424242,
+    "900": #212121,
+);
+
+$color-grey:     map-get($color-grey-list, "500");
+
+$color-grey-50:  map-get($color-grey-list, "50");
+$color-grey-100: map-get($color-grey-list, "100");
+$color-grey-200: map-get($color-grey-list, "200");
+$color-grey-300: map-get($color-grey-list, "300");
+$color-grey-400: map-get($color-grey-list, "400");
+$color-grey-500: map-get($color-grey-list, "500");
+$color-grey-600: map-get($color-grey-list, "600");
+$color-grey-700: map-get($color-grey-list, "700");
+$color-grey-800: map-get($color-grey-list, "800");
+$color-grey-900: map-get($color-grey-list, "900");
+
+
+//
+// Blue Grey
+//
+$color-blue-grey-list: (
+    "50":  #eceff1,
+    "100": #cfd8dc,
+    "200": #b0bec5,
+    "300": #90a4ae,
+    "400": #78909c,
+    "500": #607d8b,
+    "600": #546e7a,
+    "700": #455a64,
+    "800": #37474f,
+    "900": #263238,
+);
+
+$color-blue-grey:     map-get($color-blue-grey-list, "500");
+
+$color-blue-grey-50:  map-get($color-blue-grey-list, "50");
+$color-blue-grey-100: map-get($color-blue-grey-list, "100");
+$color-blue-grey-200: map-get($color-blue-grey-list, "200");
+$color-blue-grey-300: map-get($color-blue-grey-list, "300");
+$color-blue-grey-400: map-get($color-blue-grey-list, "400");
+$color-blue-grey-500: map-get($color-blue-grey-list, "500");
+$color-blue-grey-600: map-get($color-blue-grey-list, "600");
+$color-blue-grey-700: map-get($color-blue-grey-list, "700");
+$color-blue-grey-800: map-get($color-blue-grey-list, "800");
+$color-blue-grey-900: map-get($color-blue-grey-list, "900");
+
+
