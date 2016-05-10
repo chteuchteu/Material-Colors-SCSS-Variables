@@ -12,8 +12,8 @@ foreground_color_light = '#ffffff'
 foreground_color_dark = '#000000'
 
 
-def print_scss_list(output_handle, list_name, keys, values):
-    output_handle.write('$' + list_name + ': (\n')
+def print_scss_map(output_handle, name, keys, values):
+    output_handle.write('$' + name + ': (\n')
 
     longest_key = max(len(key) for key in keys)
     pattern = '    "{key}": {indent}{value},\n'
@@ -62,7 +62,45 @@ data = response.read()
 raw_html = data.decode('utf-8')
 parsed_html = BeautifulSoup(raw_html, 'html.parser')
 
-# Open output file
+# Parse it!
+html_palette = parsed_html.body.find('div', attrs={'class': 'color-palette'})
+color_groups = html_palette.find_all('section', attrs={'class', 'color-group'})
+colors = []
+
+for color_group in color_groups:
+    name_span = color_group.find(attrs={'class', 'name'})
+    # We skip black + white colors
+    if name_span is None:
+        continue
+
+    color_name = name_span.text
+    color_slug = slugify(color_name)
+
+    # Find each shade
+    html_shades = color_group.find_all('li')
+    shades = []
+
+    for shade in html_shades:
+        if has_class(shade, 'main-color'):
+            continue
+
+        shade_name = shade.find(attrs={'class', 'shade'}).text
+        hex = shade.find(attrs={'class', 'hex'}).text
+        foreground = foreground_color_dark if has_class(shade, 'dark') else foreground_color_light
+
+        shades.append({
+            'name': shade_name,
+            'hex': hex,
+            'foreground': foreground,
+        })
+
+    colors.append({
+        'name': color_name,
+        'slug': color_slug,
+        'shades': shades
+    })
+
+# Print vars & map definitions to output file
 with open(output_file, 'w') as output:
     output.truncate()
 
@@ -73,36 +111,10 @@ with open(output_file, 'w') as output:
         " */\n\n"
     ]))
 
-    # Parse it!
-    html_palette = parsed_html.body.find('div', attrs={'class': 'color-palette'})
-    color_groups = html_palette.find_all('section', attrs={'class', 'color-group'})
-
-    for color_group in color_groups:
-        name_span = color_group.find(attrs={'class', 'name'})
-        # We skip black + white colors
-        if name_span is None:
-            continue
-
-        color_name = name_span.text
-        color_slug = slugify(color_name)
-
-        # Find each shade
-        html_shades = color_group.find_all('li')
-        shades = []
-
-        for shade in html_shades:
-            if has_class(shade, 'main-color'):
-                continue
-
-            shade_name = shade.find(attrs={'class', 'shade'}).text
-            hex = shade.find(attrs={'class', 'hex'}).text
-            foreground = foreground_color_dark if has_class(shade, 'dark') else foreground_color_light
-
-            shades.append({
-                'name': shade_name,
-                'hex': hex,
-                'foreground': foreground,
-            })
+    for color in colors:
+        color_name = color['name']
+        color_slug = color['slug']
+        shades = color['shades']
 
         # Write to file
         output.writelines('\n'.join([
@@ -112,8 +124,8 @@ with open(output_file, 'w') as output:
             ''
         ]))
 
-        # List
-        print_scss_list(output, 'color-' + color_slug + '-list',
+        # Map
+        print_scss_map(output, 'color-' + color_slug + '-list',
                         [shade['name'] for shade in shades],
                         [shade['hex'] for shade in shades])
 
@@ -136,7 +148,7 @@ with open(output_file, 'w') as output:
             '// Foreground',
             ''
         ]))
-        print_scss_list(output, 'color-' + color_slug + '-foreground-list',
+        print_scss_map(output, 'color-' + color_slug + '-foreground-list',
                         [shade['name'] for shade in shades],
                         [shade['foreground'] for shade in shades])
 
@@ -153,3 +165,8 @@ with open(output_file, 'w') as output:
                         [shade['hex'] for shade in shades])
 
         output.write('\n\n')
+
+    # Print a map of all colors
+    print_scss_map(output, 'colors',
+                   [color['slug'] for color in colors],
+                   ['$color-' + color['slug'] + '-list' for color in colors])

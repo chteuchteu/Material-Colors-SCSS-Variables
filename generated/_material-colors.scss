@@ -1342,3 +1342,24 @@ $color-blue-grey-800-foreground: #37474f;
 $color-blue-grey-900-foreground: #263238;
 
 
+$colors: (
+    "red":         $color-red-list,
+    "pink":        $color-pink-list,
+    "purple":      $color-purple-list,
+    "deep-purple": $color-deep-purple-list,
+    "indigo":      $color-indigo-list,
+    "blue":        $color-blue-list,
+    "light-blue":  $color-light-blue-list,
+    "cyan":        $color-cyan-list,
+    "teal":        $color-teal-list,
+    "green":       $color-green-list,
+    "light-green": $color-light-green-list,
+    "lime":        $color-lime-list,
+    "yellow":      $color-yellow-list,
+    "amber":       $color-amber-list,
+    "orange":      $color-orange-list,
+    "deep-orange": $color-deep-orange-list,
+    "brown":       $color-brown-list,
+    "grey":        $color-grey-list,
+    "blue-grey":   $color-blue-grey-list,
+);
