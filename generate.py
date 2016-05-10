@@ -170,3 +170,7 @@ with open(output_file, 'w') as output:
     print_scss_map(output, 'colors',
                    [color['slug'] for color in colors],
                    ['$color-' + color['slug'] + '-list' for color in colors])
+
+colors_count = len(colors)
+shades_count = sum([len(color['shades']) for color in colors])
+print(output_file + ' created, containing ' + str(colors_count) + ' colors and ' + str(shades_count) + ' shades')
