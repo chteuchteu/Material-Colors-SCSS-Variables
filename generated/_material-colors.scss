@@ -23,25 +23,25 @@ $color-red-list: (
     "A700": #d50000,
 );
 
-$color-red:      map-get($color-red-list, "500");
+$color-red: #f44336;
 
-$color-red-50:   map-get($color-red-list, "50");
-$color-red-100:  map-get($color-red-list, "100");
-$color-red-200:  map-get($color-red-list, "200");
-$color-red-300:  map-get($color-red-list, "300");
-$color-red-400:  map-get($color-red-list, "400");
-$color-red-500:  map-get($color-red-list, "500");
-$color-red-600:  map-get($color-red-list, "600");
-$color-red-700:  map-get($color-red-list, "700");
-$color-red-800:  map-get($color-red-list, "800");
-$color-red-900:  map-get($color-red-list, "900");
-$color-red-A100: map-get($color-red-list, "A100");
-$color-red-A200: map-get($color-red-list, "A200");
-$color-red-A400: map-get($color-red-list, "A400");
-$color-red-A700: map-get($color-red-list, "A700");
+$color-red-50:   #ffebee;
+$color-red-100:  #ffcdd2;
+$color-red-200:  #ef9a9a;
+$color-red-300:  #e57373;
+$color-red-400:  #ef5350;
+$color-red-500:  #f44336;
+$color-red-600:  #e53935;
+$color-red-700:  #d32f2f;
+$color-red-800:  #c62828;
+$color-red-900:  #b71c1c;
+$color-red-A100: #ff8a80;
+$color-red-A200: #ff5252;
+$color-red-A400: #ff1744;
+$color-red-A700: #d50000;
 
 // Foreground
-$color-red-list-foreground: (
+$color-red-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -58,22 +58,22 @@ $color-red-list-foreground: (
     "A700": #ffffff,
 );
 
-$color-red-foreground:      map-get($color-red-list-foreground, "500");
+$color-red-foreground: #f44336;
 
-$color-red-50-foreground:   map-get($color-red-list-foreground, "50");
-$color-red-100-foreground:  map-get($color-red-list-foreground, "100");
-$color-red-200-foreground:  map-get($color-red-list-foreground, "200");
-$color-red-300-foreground:  map-get($color-red-list-foreground, "300");
-$color-red-400-foreground:  map-get($color-red-list-foreground, "400");
-$color-red-500-foreground:  map-get($color-red-list-foreground, "500");
-$color-red-600-foreground:  map-get($color-red-list-foreground, "600");
-$color-red-700-foreground:  map-get($color-red-list-foreground, "700");
-$color-red-800-foreground:  map-get($color-red-list-foreground, "800");
-$color-red-900-foreground:  map-get($color-red-list-foreground, "900");
-$color-red-A100-foreground: map-get($color-red-list-foreground, "A100");
-$color-red-A200-foreground: map-get($color-red-list-foreground, "A200");
-$color-red-A400-foreground: map-get($color-red-list-foreground, "A400");
-$color-red-A700-foreground: map-get($color-red-list-foreground, "A700");
+$color-red-50-foreground:   #ffebee;
+$color-red-100-foreground:  #ffcdd2;
+$color-red-200-foreground:  #ef9a9a;
+$color-red-300-foreground:  #e57373;
+$color-red-400-foreground:  #ef5350;
+$color-red-500-foreground:  #f44336;
+$color-red-600-foreground:  #e53935;
+$color-red-700-foreground:  #d32f2f;
+$color-red-800-foreground:  #c62828;
+$color-red-900-foreground:  #b71c1c;
+$color-red-A100-foreground: #ff8a80;
+$color-red-A200-foreground: #ff5252;
+$color-red-A400-foreground: #ff1744;
+$color-red-A700-foreground: #d50000;
 
 
 //
@@ -96,25 +96,25 @@ $color-pink-list: (
     "A700": #c51162,
 );
 
-$color-pink:      map-get($color-pink-list, "500");
+$color-pink: #e91e63;
 
-$color-pink-50:   map-get($color-pink-list, "50");
-$color-pink-100:  map-get($color-pink-list, "100");
-$color-pink-200:  map-get($color-pink-list, "200");
-$color-pink-300:  map-get($color-pink-list, "300");
-$color-pink-400:  map-get($color-pink-list, "400");
-$color-pink-500:  map-get($color-pink-list, "500");
-$color-pink-600:  map-get($color-pink-list, "600");
-$color-pink-700:  map-get($color-pink-list, "700");
-$color-pink-800:  map-get($color-pink-list, "800");
-$color-pink-900:  map-get($color-pink-list, "900");
-$color-pink-A100: map-get($color-pink-list, "A100");
-$color-pink-A200: map-get($color-pink-list, "A200");
-$color-pink-A400: map-get($color-pink-list, "A400");
-$color-pink-A700: map-get($color-pink-list, "A700");
+$color-pink-50:   #fce4ec;
+$color-pink-100:  #f8bbd0;
+$color-pink-200:  #f48fb1;
+$color-pink-300:  #f06292;
+$color-pink-400:  #ec407a;
+$color-pink-500:  #e91e63;
+$color-pink-600:  #d81b60;
+$color-pink-700:  #c2185b;
+$color-pink-800:  #ad1457;
+$color-pink-900:  #880e4f;
+$color-pink-A100: #ff80ab;
+$color-pink-A200: #ff4081;
+$color-pink-A400: #f50057;
+$color-pink-A700: #c51162;
 
 // Foreground
-$color-pink-list-foreground: (
+$color-pink-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -131,22 +131,22 @@ $color-pink-list-foreground: (
     "A700": #ffffff,
 );
 
-$color-pink-foreground:      map-get($color-pink-list-foreground, "500");
+$color-pink-foreground: #e91e63;
 
-$color-pink-50-foreground:   map-get($color-pink-list-foreground, "50");
-$color-pink-100-foreground:  map-get($color-pink-list-foreground, "100");
-$color-pink-200-foreground:  map-get($color-pink-list-foreground, "200");
-$color-pink-300-foreground:  map-get($color-pink-list-foreground, "300");
-$color-pink-400-foreground:  map-get($color-pink-list-foreground, "400");
-$color-pink-500-foreground:  map-get($color-pink-list-foreground, "500");
-$color-pink-600-foreground:  map-get($color-pink-list-foreground, "600");
-$color-pink-700-foreground:  map-get($color-pink-list-foreground, "700");
-$color-pink-800-foreground:  map-get($color-pink-list-foreground, "800");
-$color-pink-900-foreground:  map-get($color-pink-list-foreground, "900");
-$color-pink-A100-foreground: map-get($color-pink-list-foreground, "A100");
-$color-pink-A200-foreground: map-get($color-pink-list-foreground, "A200");
-$color-pink-A400-foreground: map-get($color-pink-list-foreground, "A400");
-$color-pink-A700-foreground: map-get($color-pink-list-foreground, "A700");
+$color-pink-50-foreground:   #fce4ec;
+$color-pink-100-foreground:  #f8bbd0;
+$color-pink-200-foreground:  #f48fb1;
+$color-pink-300-foreground:  #f06292;
+$color-pink-400-foreground:  #ec407a;
+$color-pink-500-foreground:  #e91e63;
+$color-pink-600-foreground:  #d81b60;
+$color-pink-700-foreground:  #c2185b;
+$color-pink-800-foreground:  #ad1457;
+$color-pink-900-foreground:  #880e4f;
+$color-pink-A100-foreground: #ff80ab;
+$color-pink-A200-foreground: #ff4081;
+$color-pink-A400-foreground: #f50057;
+$color-pink-A700-foreground: #c51162;
 
 
 //
@@ -169,25 +169,25 @@ $color-purple-list: (
     "A700": #aa00ff,
 );
 
-$color-purple:      map-get($color-purple-list, "500");
+$color-purple: #9c27b0;
 
-$color-purple-50:   map-get($color-purple-list, "50");
-$color-purple-100:  map-get($color-purple-list, "100");
-$color-purple-200:  map-get($color-purple-list, "200");
-$color-purple-300:  map-get($color-purple-list, "300");
-$color-purple-400:  map-get($color-purple-list, "400");
-$color-purple-500:  map-get($color-purple-list, "500");
-$color-purple-600:  map-get($color-purple-list, "600");
-$color-purple-700:  map-get($color-purple-list, "700");
-$color-purple-800:  map-get($color-purple-list, "800");
-$color-purple-900:  map-get($color-purple-list, "900");
-$color-purple-A100: map-get($color-purple-list, "A100");
-$color-purple-A200: map-get($color-purple-list, "A200");
-$color-purple-A400: map-get($color-purple-list, "A400");
-$color-purple-A700: map-get($color-purple-list, "A700");
+$color-purple-50:   #f3e5f5;
+$color-purple-100:  #e1bee7;
+$color-purple-200:  #ce93d8;
+$color-purple-300:  #ba68c8;
+$color-purple-400:  #ab47bc;
+$color-purple-500:  #9c27b0;
+$color-purple-600:  #8e24aa;
+$color-purple-700:  #7b1fa2;
+$color-purple-800:  #6a1b9a;
+$color-purple-900:  #4a148c;
+$color-purple-A100: #ea80fc;
+$color-purple-A200: #e040fb;
+$color-purple-A400: #d500f9;
+$color-purple-A700: #aa00ff;
 
 // Foreground
-$color-purple-list-foreground: (
+$color-purple-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -204,22 +204,22 @@ $color-purple-list-foreground: (
     "A700": #ffffff,
 );
 
-$color-purple-foreground:      map-get($color-purple-list-foreground, "500");
+$color-purple-foreground: #9c27b0;
 
-$color-purple-50-foreground:   map-get($color-purple-list-foreground, "50");
-$color-purple-100-foreground:  map-get($color-purple-list-foreground, "100");
-$color-purple-200-foreground:  map-get($color-purple-list-foreground, "200");
-$color-purple-300-foreground:  map-get($color-purple-list-foreground, "300");
-$color-purple-400-foreground:  map-get($color-purple-list-foreground, "400");
-$color-purple-500-foreground:  map-get($color-purple-list-foreground, "500");
-$color-purple-600-foreground:  map-get($color-purple-list-foreground, "600");
-$color-purple-700-foreground:  map-get($color-purple-list-foreground, "700");
-$color-purple-800-foreground:  map-get($color-purple-list-foreground, "800");
-$color-purple-900-foreground:  map-get($color-purple-list-foreground, "900");
-$color-purple-A100-foreground: map-get($color-purple-list-foreground, "A100");
-$color-purple-A200-foreground: map-get($color-purple-list-foreground, "A200");
-$color-purple-A400-foreground: map-get($color-purple-list-foreground, "A400");
-$color-purple-A700-foreground: map-get($color-purple-list-foreground, "A700");
+$color-purple-50-foreground:   #f3e5f5;
+$color-purple-100-foreground:  #e1bee7;
+$color-purple-200-foreground:  #ce93d8;
+$color-purple-300-foreground:  #ba68c8;
+$color-purple-400-foreground:  #ab47bc;
+$color-purple-500-foreground:  #9c27b0;
+$color-purple-600-foreground:  #8e24aa;
+$color-purple-700-foreground:  #7b1fa2;
+$color-purple-800-foreground:  #6a1b9a;
+$color-purple-900-foreground:  #4a148c;
+$color-purple-A100-foreground: #ea80fc;
+$color-purple-A200-foreground: #e040fb;
+$color-purple-A400-foreground: #d500f9;
+$color-purple-A700-foreground: #aa00ff;
 
 
 //
@@ -242,25 +242,25 @@ $color-deep-purple-list: (
     "A700": #6200ea,
 );
 
-$color-deep-purple:      map-get($color-deep-purple-list, "500");
+$color-deep-purple: #673ab7;
 
-$color-deep-purple-50:   map-get($color-deep-purple-list, "50");
-$color-deep-purple-100:  map-get($color-deep-purple-list, "100");
-$color-deep-purple-200:  map-get($color-deep-purple-list, "200");
-$color-deep-purple-300:  map-get($color-deep-purple-list, "300");
-$color-deep-purple-400:  map-get($color-deep-purple-list, "400");
-$color-deep-purple-500:  map-get($color-deep-purple-list, "500");
-$color-deep-purple-600:  map-get($color-deep-purple-list, "600");
-$color-deep-purple-700:  map-get($color-deep-purple-list, "700");
-$color-deep-purple-800:  map-get($color-deep-purple-list, "800");
-$color-deep-purple-900:  map-get($color-deep-purple-list, "900");
-$color-deep-purple-A100: map-get($color-deep-purple-list, "A100");
-$color-deep-purple-A200: map-get($color-deep-purple-list, "A200");
-$color-deep-purple-A400: map-get($color-deep-purple-list, "A400");
-$color-deep-purple-A700: map-get($color-deep-purple-list, "A700");
+$color-deep-purple-50:   #ede7f6;
+$color-deep-purple-100:  #d1c4e9;
+$color-deep-purple-200:  #b39ddb;
+$color-deep-purple-300:  #9575cd;
+$color-deep-purple-400:  #7e57c2;
+$color-deep-purple-500:  #673ab7;
+$color-deep-purple-600:  #5e35b1;
+$color-deep-purple-700:  #512da8;
+$color-deep-purple-800:  #4527a0;
+$color-deep-purple-900:  #311b92;
+$color-deep-purple-A100: #b388ff;
+$color-deep-purple-A200: #7c4dff;
+$color-deep-purple-A400: #651fff;
+$color-deep-purple-A700: #6200ea;
 
 // Foreground
-$color-deep-purple-list-foreground: (
+$color-deep-purple-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -277,22 +277,22 @@ $color-deep-purple-list-foreground: (
     "A700": #ffffff,
 );
 
-$color-deep-purple-foreground:      map-get($color-deep-purple-list-foreground, "500");
+$color-deep-purple-foreground: #673ab7;
 
-$color-deep-purple-50-foreground:   map-get($color-deep-purple-list-foreground, "50");
-$color-deep-purple-100-foreground:  map-get($color-deep-purple-list-foreground, "100");
-$color-deep-purple-200-foreground:  map-get($color-deep-purple-list-foreground, "200");
-$color-deep-purple-300-foreground:  map-get($color-deep-purple-list-foreground, "300");
-$color-deep-purple-400-foreground:  map-get($color-deep-purple-list-foreground, "400");
-$color-deep-purple-500-foreground:  map-get($color-deep-purple-list-foreground, "500");
-$color-deep-purple-600-foreground:  map-get($color-deep-purple-list-foreground, "600");
-$color-deep-purple-700-foreground:  map-get($color-deep-purple-list-foreground, "700");
-$color-deep-purple-800-foreground:  map-get($color-deep-purple-list-foreground, "800");
-$color-deep-purple-900-foreground:  map-get($color-deep-purple-list-foreground, "900");
-$color-deep-purple-A100-foreground: map-get($color-deep-purple-list-foreground, "A100");
-$color-deep-purple-A200-foreground: map-get($color-deep-purple-list-foreground, "A200");
-$color-deep-purple-A400-foreground: map-get($color-deep-purple-list-foreground, "A400");
-$color-deep-purple-A700-foreground: map-get($color-deep-purple-list-foreground, "A700");
+$color-deep-purple-50-foreground:   #ede7f6;
+$color-deep-purple-100-foreground:  #d1c4e9;
+$color-deep-purple-200-foreground:  #b39ddb;
+$color-deep-purple-300-foreground:  #9575cd;
+$color-deep-purple-400-foreground:  #7e57c2;
+$color-deep-purple-500-foreground:  #673ab7;
+$color-deep-purple-600-foreground:  #5e35b1;
+$color-deep-purple-700-foreground:  #512da8;
+$color-deep-purple-800-foreground:  #4527a0;
+$color-deep-purple-900-foreground:  #311b92;
+$color-deep-purple-A100-foreground: #b388ff;
+$color-deep-purple-A200-foreground: #7c4dff;
+$color-deep-purple-A400-foreground: #651fff;
+$color-deep-purple-A700-foreground: #6200ea;
 
 
 //
@@ -315,25 +315,25 @@ $color-indigo-list: (
     "A700": #304ffe,
 );
 
-$color-indigo:      map-get($color-indigo-list, "500");
+$color-indigo: #3f51b5;
 
-$color-indigo-50:   map-get($color-indigo-list, "50");
-$color-indigo-100:  map-get($color-indigo-list, "100");
-$color-indigo-200:  map-get($color-indigo-list, "200");
-$color-indigo-300:  map-get($color-indigo-list, "300");
-$color-indigo-400:  map-get($color-indigo-list, "400");
-$color-indigo-500:  map-get($color-indigo-list, "500");
-$color-indigo-600:  map-get($color-indigo-list, "600");
-$color-indigo-700:  map-get($color-indigo-list, "700");
-$color-indigo-800:  map-get($color-indigo-list, "800");
-$color-indigo-900:  map-get($color-indigo-list, "900");
-$color-indigo-A100: map-get($color-indigo-list, "A100");
-$color-indigo-A200: map-get($color-indigo-list, "A200");
-$color-indigo-A400: map-get($color-indigo-list, "A400");
-$color-indigo-A700: map-get($color-indigo-list, "A700");
+$color-indigo-50:   #e8eaf6;
+$color-indigo-100:  #c5cae9;
+$color-indigo-200:  #9fa8da;
+$color-indigo-300:  #7986cb;
+$color-indigo-400:  #5c6bc0;
+$color-indigo-500:  #3f51b5;
+$color-indigo-600:  #3949ab;
+$color-indigo-700:  #303f9f;
+$color-indigo-800:  #283593;
+$color-indigo-900:  #1a237e;
+$color-indigo-A100: #8c9eff;
+$color-indigo-A200: #536dfe;
+$color-indigo-A400: #3d5afe;
+$color-indigo-A700: #304ffe;
 
 // Foreground
-$color-indigo-list-foreground: (
+$color-indigo-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -350,22 +350,22 @@ $color-indigo-list-foreground: (
     "A700": #ffffff,
 );
 
-$color-indigo-foreground:      map-get($color-indigo-list-foreground, "500");
+$color-indigo-foreground: #3f51b5;
 
-$color-indigo-50-foreground:   map-get($color-indigo-list-foreground, "50");
-$color-indigo-100-foreground:  map-get($color-indigo-list-foreground, "100");
-$color-indigo-200-foreground:  map-get($color-indigo-list-foreground, "200");
-$color-indigo-300-foreground:  map-get($color-indigo-list-foreground, "300");
-$color-indigo-400-foreground:  map-get($color-indigo-list-foreground, "400");
-$color-indigo-500-foreground:  map-get($color-indigo-list-foreground, "500");
-$color-indigo-600-foreground:  map-get($color-indigo-list-foreground, "600");
-$color-indigo-700-foreground:  map-get($color-indigo-list-foreground, "700");
-$color-indigo-800-foreground:  map-get($color-indigo-list-foreground, "800");
-$color-indigo-900-foreground:  map-get($color-indigo-list-foreground, "900");
-$color-indigo-A100-foreground: map-get($color-indigo-list-foreground, "A100");
-$color-indigo-A200-foreground: map-get($color-indigo-list-foreground, "A200");
-$color-indigo-A400-foreground: map-get($color-indigo-list-foreground, "A400");
-$color-indigo-A700-foreground: map-get($color-indigo-list-foreground, "A700");
+$color-indigo-50-foreground:   #e8eaf6;
+$color-indigo-100-foreground:  #c5cae9;
+$color-indigo-200-foreground:  #9fa8da;
+$color-indigo-300-foreground:  #7986cb;
+$color-indigo-400-foreground:  #5c6bc0;
+$color-indigo-500-foreground:  #3f51b5;
+$color-indigo-600-foreground:  #3949ab;
+$color-indigo-700-foreground:  #303f9f;
+$color-indigo-800-foreground:  #283593;
+$color-indigo-900-foreground:  #1a237e;
+$color-indigo-A100-foreground: #8c9eff;
+$color-indigo-A200-foreground: #536dfe;
+$color-indigo-A400-foreground: #3d5afe;
+$color-indigo-A700-foreground: #304ffe;
 
 
 //
@@ -388,25 +388,25 @@ $color-blue-list: (
     "A700": #2962ff,
 );
 
-$color-blue:      map-get($color-blue-list, "500");
+$color-blue: #2196f3;
 
-$color-blue-50:   map-get($color-blue-list, "50");
-$color-blue-100:  map-get($color-blue-list, "100");
-$color-blue-200:  map-get($color-blue-list, "200");
-$color-blue-300:  map-get($color-blue-list, "300");
-$color-blue-400:  map-get($color-blue-list, "400");
-$color-blue-500:  map-get($color-blue-list, "500");
-$color-blue-600:  map-get($color-blue-list, "600");
-$color-blue-700:  map-get($color-blue-list, "700");
-$color-blue-800:  map-get($color-blue-list, "800");
-$color-blue-900:  map-get($color-blue-list, "900");
-$color-blue-A100: map-get($color-blue-list, "A100");
-$color-blue-A200: map-get($color-blue-list, "A200");
-$color-blue-A400: map-get($color-blue-list, "A400");
-$color-blue-A700: map-get($color-blue-list, "A700");
+$color-blue-50:   #e3f2fd;
+$color-blue-100:  #bbdefb;
+$color-blue-200:  #90caf9;
+$color-blue-300:  #64b5f6;
+$color-blue-400:  #42a5f5;
+$color-blue-500:  #2196f3;
+$color-blue-600:  #1e88e5;
+$color-blue-700:  #1976d2;
+$color-blue-800:  #1565c0;
+$color-blue-900:  #0d47a1;
+$color-blue-A100: #82b1ff;
+$color-blue-A200: #448aff;
+$color-blue-A400: #2979ff;
+$color-blue-A700: #2962ff;
 
 // Foreground
-$color-blue-list-foreground: (
+$color-blue-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -423,22 +423,22 @@ $color-blue-list-foreground: (
     "A700": #ffffff,
 );
 
-$color-blue-foreground:      map-get($color-blue-list-foreground, "500");
+$color-blue-foreground: #2196f3;
 
-$color-blue-50-foreground:   map-get($color-blue-list-foreground, "50");
-$color-blue-100-foreground:  map-get($color-blue-list-foreground, "100");
-$color-blue-200-foreground:  map-get($color-blue-list-foreground, "200");
-$color-blue-300-foreground:  map-get($color-blue-list-foreground, "300");
-$color-blue-400-foreground:  map-get($color-blue-list-foreground, "400");
-$color-blue-500-foreground:  map-get($color-blue-list-foreground, "500");
-$color-blue-600-foreground:  map-get($color-blue-list-foreground, "600");
-$color-blue-700-foreground:  map-get($color-blue-list-foreground, "700");
-$color-blue-800-foreground:  map-get($color-blue-list-foreground, "800");
-$color-blue-900-foreground:  map-get($color-blue-list-foreground, "900");
-$color-blue-A100-foreground: map-get($color-blue-list-foreground, "A100");
-$color-blue-A200-foreground: map-get($color-blue-list-foreground, "A200");
-$color-blue-A400-foreground: map-get($color-blue-list-foreground, "A400");
-$color-blue-A700-foreground: map-get($color-blue-list-foreground, "A700");
+$color-blue-50-foreground:   #e3f2fd;
+$color-blue-100-foreground:  #bbdefb;
+$color-blue-200-foreground:  #90caf9;
+$color-blue-300-foreground:  #64b5f6;
+$color-blue-400-foreground:  #42a5f5;
+$color-blue-500-foreground:  #2196f3;
+$color-blue-600-foreground:  #1e88e5;
+$color-blue-700-foreground:  #1976d2;
+$color-blue-800-foreground:  #1565c0;
+$color-blue-900-foreground:  #0d47a1;
+$color-blue-A100-foreground: #82b1ff;
+$color-blue-A200-foreground: #448aff;
+$color-blue-A400-foreground: #2979ff;
+$color-blue-A700-foreground: #2962ff;
 
 
 //
@@ -461,25 +461,25 @@ $color-light-blue-list: (
     "A700": #0091ea,
 );
 
-$color-light-blue:      map-get($color-light-blue-list, "500");
+$color-light-blue: #03a9f4;
 
-$color-light-blue-50:   map-get($color-light-blue-list, "50");
-$color-light-blue-100:  map-get($color-light-blue-list, "100");
-$color-light-blue-200:  map-get($color-light-blue-list, "200");
-$color-light-blue-300:  map-get($color-light-blue-list, "300");
-$color-light-blue-400:  map-get($color-light-blue-list, "400");
-$color-light-blue-500:  map-get($color-light-blue-list, "500");
-$color-light-blue-600:  map-get($color-light-blue-list, "600");
-$color-light-blue-700:  map-get($color-light-blue-list, "700");
-$color-light-blue-800:  map-get($color-light-blue-list, "800");
-$color-light-blue-900:  map-get($color-light-blue-list, "900");
-$color-light-blue-A100: map-get($color-light-blue-list, "A100");
-$color-light-blue-A200: map-get($color-light-blue-list, "A200");
-$color-light-blue-A400: map-get($color-light-blue-list, "A400");
-$color-light-blue-A700: map-get($color-light-blue-list, "A700");
+$color-light-blue-50:   #e1f5fe;
+$color-light-blue-100:  #b3e5fc;
+$color-light-blue-200:  #81d4fa;
+$color-light-blue-300:  #4fc3f7;
+$color-light-blue-400:  #29b6f6;
+$color-light-blue-500:  #03a9f4;
+$color-light-blue-600:  #039be5;
+$color-light-blue-700:  #0288d1;
+$color-light-blue-800:  #0277bd;
+$color-light-blue-900:  #01579b;
+$color-light-blue-A100: #80d8ff;
+$color-light-blue-A200: #40c4ff;
+$color-light-blue-A400: #00b0ff;
+$color-light-blue-A700: #0091ea;
 
 // Foreground
-$color-light-blue-list-foreground: (
+$color-light-blue-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -496,22 +496,22 @@ $color-light-blue-list-foreground: (
     "A700": #ffffff,
 );
 
-$color-light-blue-foreground:      map-get($color-light-blue-list-foreground, "500");
+$color-light-blue-foreground: #03a9f4;
 
-$color-light-blue-50-foreground:   map-get($color-light-blue-list-foreground, "50");
-$color-light-blue-100-foreground:  map-get($color-light-blue-list-foreground, "100");
-$color-light-blue-200-foreground:  map-get($color-light-blue-list-foreground, "200");
-$color-light-blue-300-foreground:  map-get($color-light-blue-list-foreground, "300");
-$color-light-blue-400-foreground:  map-get($color-light-blue-list-foreground, "400");
-$color-light-blue-500-foreground:  map-get($color-light-blue-list-foreground, "500");
-$color-light-blue-600-foreground:  map-get($color-light-blue-list-foreground, "600");
-$color-light-blue-700-foreground:  map-get($color-light-blue-list-foreground, "700");
-$color-light-blue-800-foreground:  map-get($color-light-blue-list-foreground, "800");
-$color-light-blue-900-foreground:  map-get($color-light-blue-list-foreground, "900");
-$color-light-blue-A100-foreground: map-get($color-light-blue-list-foreground, "A100");
-$color-light-blue-A200-foreground: map-get($color-light-blue-list-foreground, "A200");
-$color-light-blue-A400-foreground: map-get($color-light-blue-list-foreground, "A400");
-$color-light-blue-A700-foreground: map-get($color-light-blue-list-foreground, "A700");
+$color-light-blue-50-foreground:   #e1f5fe;
+$color-light-blue-100-foreground:  #b3e5fc;
+$color-light-blue-200-foreground:  #81d4fa;
+$color-light-blue-300-foreground:  #4fc3f7;
+$color-light-blue-400-foreground:  #29b6f6;
+$color-light-blue-500-foreground:  #03a9f4;
+$color-light-blue-600-foreground:  #039be5;
+$color-light-blue-700-foreground:  #0288d1;
+$color-light-blue-800-foreground:  #0277bd;
+$color-light-blue-900-foreground:  #01579b;
+$color-light-blue-A100-foreground: #80d8ff;
+$color-light-blue-A200-foreground: #40c4ff;
+$color-light-blue-A400-foreground: #00b0ff;
+$color-light-blue-A700-foreground: #0091ea;
 
 
 //
@@ -534,25 +534,25 @@ $color-cyan-list: (
     "A700": #00b8d4,
 );
 
-$color-cyan:      map-get($color-cyan-list, "500");
+$color-cyan: #00bcd4;
 
-$color-cyan-50:   map-get($color-cyan-list, "50");
-$color-cyan-100:  map-get($color-cyan-list, "100");
-$color-cyan-200:  map-get($color-cyan-list, "200");
-$color-cyan-300:  map-get($color-cyan-list, "300");
-$color-cyan-400:  map-get($color-cyan-list, "400");
-$color-cyan-500:  map-get($color-cyan-list, "500");
-$color-cyan-600:  map-get($color-cyan-list, "600");
-$color-cyan-700:  map-get($color-cyan-list, "700");
-$color-cyan-800:  map-get($color-cyan-list, "800");
-$color-cyan-900:  map-get($color-cyan-list, "900");
-$color-cyan-A100: map-get($color-cyan-list, "A100");
-$color-cyan-A200: map-get($color-cyan-list, "A200");
-$color-cyan-A400: map-get($color-cyan-list, "A400");
-$color-cyan-A700: map-get($color-cyan-list, "A700");
+$color-cyan-50:   #e0f7fa;
+$color-cyan-100:  #b2ebf2;
+$color-cyan-200:  #80deea;
+$color-cyan-300:  #4dd0e1;
+$color-cyan-400:  #26c6da;
+$color-cyan-500:  #00bcd4;
+$color-cyan-600:  #00acc1;
+$color-cyan-700:  #0097a7;
+$color-cyan-800:  #00838f;
+$color-cyan-900:  #006064;
+$color-cyan-A100: #84ffff;
+$color-cyan-A200: #18ffff;
+$color-cyan-A400: #00e5ff;
+$color-cyan-A700: #00b8d4;
 
 // Foreground
-$color-cyan-list-foreground: (
+$color-cyan-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -569,22 +569,22 @@ $color-cyan-list-foreground: (
     "A700": #000000,
 );
 
-$color-cyan-foreground:      map-get($color-cyan-list-foreground, "500");
+$color-cyan-foreground: #00bcd4;
 
-$color-cyan-50-foreground:   map-get($color-cyan-list-foreground, "50");
-$color-cyan-100-foreground:  map-get($color-cyan-list-foreground, "100");
-$color-cyan-200-foreground:  map-get($color-cyan-list-foreground, "200");
-$color-cyan-300-foreground:  map-get($color-cyan-list-foreground, "300");
-$color-cyan-400-foreground:  map-get($color-cyan-list-foreground, "400");
-$color-cyan-500-foreground:  map-get($color-cyan-list-foreground, "500");
-$color-cyan-600-foreground:  map-get($color-cyan-list-foreground, "600");
-$color-cyan-700-foreground:  map-get($color-cyan-list-foreground, "700");
-$color-cyan-800-foreground:  map-get($color-cyan-list-foreground, "800");
-$color-cyan-900-foreground:  map-get($color-cyan-list-foreground, "900");
-$color-cyan-A100-foreground: map-get($color-cyan-list-foreground, "A100");
-$color-cyan-A200-foreground: map-get($color-cyan-list-foreground, "A200");
-$color-cyan-A400-foreground: map-get($color-cyan-list-foreground, "A400");
-$color-cyan-A700-foreground: map-get($color-cyan-list-foreground, "A700");
+$color-cyan-50-foreground:   #e0f7fa;
+$color-cyan-100-foreground:  #b2ebf2;
+$color-cyan-200-foreground:  #80deea;
+$color-cyan-300-foreground:  #4dd0e1;
+$color-cyan-400-foreground:  #26c6da;
+$color-cyan-500-foreground:  #00bcd4;
+$color-cyan-600-foreground:  #00acc1;
+$color-cyan-700-foreground:  #0097a7;
+$color-cyan-800-foreground:  #00838f;
+$color-cyan-900-foreground:  #006064;
+$color-cyan-A100-foreground: #84ffff;
+$color-cyan-A200-foreground: #18ffff;
+$color-cyan-A400-foreground: #00e5ff;
+$color-cyan-A700-foreground: #00b8d4;
 
 
 //
@@ -607,25 +607,25 @@ $color-teal-list: (
     "A700": #00bfa5,
 );
 
-$color-teal:      map-get($color-teal-list, "500");
+$color-teal: #009688;
 
-$color-teal-50:   map-get($color-teal-list, "50");
-$color-teal-100:  map-get($color-teal-list, "100");
-$color-teal-200:  map-get($color-teal-list, "200");
-$color-teal-300:  map-get($color-teal-list, "300");
-$color-teal-400:  map-get($color-teal-list, "400");
-$color-teal-500:  map-get($color-teal-list, "500");
-$color-teal-600:  map-get($color-teal-list, "600");
-$color-teal-700:  map-get($color-teal-list, "700");
-$color-teal-800:  map-get($color-teal-list, "800");
-$color-teal-900:  map-get($color-teal-list, "900");
-$color-teal-A100: map-get($color-teal-list, "A100");
-$color-teal-A200: map-get($color-teal-list, "A200");
-$color-teal-A400: map-get($color-teal-list, "A400");
-$color-teal-A700: map-get($color-teal-list, "A700");
+$color-teal-50:   #e0f2f1;
+$color-teal-100:  #b2dfdb;
+$color-teal-200:  #80cbc4;
+$color-teal-300:  #4db6ac;
+$color-teal-400:  #26a69a;
+$color-teal-500:  #009688;
+$color-teal-600:  #00897b;
+$color-teal-700:  #00796b;
+$color-teal-800:  #00695c;
+$color-teal-900:  #004d40;
+$color-teal-A100: #a7ffeb;
+$color-teal-A200: #64ffda;
+$color-teal-A400: #1de9b6;
+$color-teal-A700: #00bfa5;
 
 // Foreground
-$color-teal-list-foreground: (
+$color-teal-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -642,22 +642,22 @@ $color-teal-list-foreground: (
     "A700": #000000,
 );
 
-$color-teal-foreground:      map-get($color-teal-list-foreground, "500");
+$color-teal-foreground: #009688;
 
-$color-teal-50-foreground:   map-get($color-teal-list-foreground, "50");
-$color-teal-100-foreground:  map-get($color-teal-list-foreground, "100");
-$color-teal-200-foreground:  map-get($color-teal-list-foreground, "200");
-$color-teal-300-foreground:  map-get($color-teal-list-foreground, "300");
-$color-teal-400-foreground:  map-get($color-teal-list-foreground, "400");
-$color-teal-500-foreground:  map-get($color-teal-list-foreground, "500");
-$color-teal-600-foreground:  map-get($color-teal-list-foreground, "600");
-$color-teal-700-foreground:  map-get($color-teal-list-foreground, "700");
-$color-teal-800-foreground:  map-get($color-teal-list-foreground, "800");
-$color-teal-900-foreground:  map-get($color-teal-list-foreground, "900");
-$color-teal-A100-foreground: map-get($color-teal-list-foreground, "A100");
-$color-teal-A200-foreground: map-get($color-teal-list-foreground, "A200");
-$color-teal-A400-foreground: map-get($color-teal-list-foreground, "A400");
-$color-teal-A700-foreground: map-get($color-teal-list-foreground, "A700");
+$color-teal-50-foreground:   #e0f2f1;
+$color-teal-100-foreground:  #b2dfdb;
+$color-teal-200-foreground:  #80cbc4;
+$color-teal-300-foreground:  #4db6ac;
+$color-teal-400-foreground:  #26a69a;
+$color-teal-500-foreground:  #009688;
+$color-teal-600-foreground:  #00897b;
+$color-teal-700-foreground:  #00796b;
+$color-teal-800-foreground:  #00695c;
+$color-teal-900-foreground:  #004d40;
+$color-teal-A100-foreground: #a7ffeb;
+$color-teal-A200-foreground: #64ffda;
+$color-teal-A400-foreground: #1de9b6;
+$color-teal-A700-foreground: #00bfa5;
 
 
 //
@@ -680,25 +680,25 @@ $color-green-list: (
     "A700": #00c853,
 );
 
-$color-green:      map-get($color-green-list, "500");
+$color-green: #4caf50;
 
-$color-green-50:   map-get($color-green-list, "50");
-$color-green-100:  map-get($color-green-list, "100");
-$color-green-200:  map-get($color-green-list, "200");
-$color-green-300:  map-get($color-green-list, "300");
-$color-green-400:  map-get($color-green-list, "400");
-$color-green-500:  map-get($color-green-list, "500");
-$color-green-600:  map-get($color-green-list, "600");
-$color-green-700:  map-get($color-green-list, "700");
-$color-green-800:  map-get($color-green-list, "800");
-$color-green-900:  map-get($color-green-list, "900");
-$color-green-A100: map-get($color-green-list, "A100");
-$color-green-A200: map-get($color-green-list, "A200");
-$color-green-A400: map-get($color-green-list, "A400");
-$color-green-A700: map-get($color-green-list, "A700");
+$color-green-50:   #e8f5e9;
+$color-green-100:  #c8e6c9;
+$color-green-200:  #a5d6a7;
+$color-green-300:  #81c784;
+$color-green-400:  #66bb6a;
+$color-green-500:  #4caf50;
+$color-green-600:  #43a047;
+$color-green-700:  #388e3c;
+$color-green-800:  #2e7d32;
+$color-green-900:  #1b5e20;
+$color-green-A100: #b9f6ca;
+$color-green-A200: #69f0ae;
+$color-green-A400: #00e676;
+$color-green-A700: #00c853;
 
 // Foreground
-$color-green-list-foreground: (
+$color-green-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -715,22 +715,22 @@ $color-green-list-foreground: (
     "A700": #000000,
 );
 
-$color-green-foreground:      map-get($color-green-list-foreground, "500");
+$color-green-foreground: #4caf50;
 
-$color-green-50-foreground:   map-get($color-green-list-foreground, "50");
-$color-green-100-foreground:  map-get($color-green-list-foreground, "100");
-$color-green-200-foreground:  map-get($color-green-list-foreground, "200");
-$color-green-300-foreground:  map-get($color-green-list-foreground, "300");
-$color-green-400-foreground:  map-get($color-green-list-foreground, "400");
-$color-green-500-foreground:  map-get($color-green-list-foreground, "500");
-$color-green-600-foreground:  map-get($color-green-list-foreground, "600");
-$color-green-700-foreground:  map-get($color-green-list-foreground, "700");
-$color-green-800-foreground:  map-get($color-green-list-foreground, "800");
-$color-green-900-foreground:  map-get($color-green-list-foreground, "900");
-$color-green-A100-foreground: map-get($color-green-list-foreground, "A100");
-$color-green-A200-foreground: map-get($color-green-list-foreground, "A200");
-$color-green-A400-foreground: map-get($color-green-list-foreground, "A400");
-$color-green-A700-foreground: map-get($color-green-list-foreground, "A700");
+$color-green-50-foreground:   #e8f5e9;
+$color-green-100-foreground:  #c8e6c9;
+$color-green-200-foreground:  #a5d6a7;
+$color-green-300-foreground:  #81c784;
+$color-green-400-foreground:  #66bb6a;
+$color-green-500-foreground:  #4caf50;
+$color-green-600-foreground:  #43a047;
+$color-green-700-foreground:  #388e3c;
+$color-green-800-foreground:  #2e7d32;
+$color-green-900-foreground:  #1b5e20;
+$color-green-A100-foreground: #b9f6ca;
+$color-green-A200-foreground: #69f0ae;
+$color-green-A400-foreground: #00e676;
+$color-green-A700-foreground: #00c853;
 
 
 //
@@ -753,25 +753,25 @@ $color-light-green-list: (
     "A700": #64dd17,
 );
 
-$color-light-green:      map-get($color-light-green-list, "500");
+$color-light-green: #8bc34a;
 
-$color-light-green-50:   map-get($color-light-green-list, "50");
-$color-light-green-100:  map-get($color-light-green-list, "100");
-$color-light-green-200:  map-get($color-light-green-list, "200");
-$color-light-green-300:  map-get($color-light-green-list, "300");
-$color-light-green-400:  map-get($color-light-green-list, "400");
-$color-light-green-500:  map-get($color-light-green-list, "500");
-$color-light-green-600:  map-get($color-light-green-list, "600");
-$color-light-green-700:  map-get($color-light-green-list, "700");
-$color-light-green-800:  map-get($color-light-green-list, "800");
-$color-light-green-900:  map-get($color-light-green-list, "900");
-$color-light-green-A100: map-get($color-light-green-list, "A100");
-$color-light-green-A200: map-get($color-light-green-list, "A200");
-$color-light-green-A400: map-get($color-light-green-list, "A400");
-$color-light-green-A700: map-get($color-light-green-list, "A700");
+$color-light-green-50:   #f1f8e9;
+$color-light-green-100:  #dcedc8;
+$color-light-green-200:  #c5e1a5;
+$color-light-green-300:  #aed581;
+$color-light-green-400:  #9ccc65;
+$color-light-green-500:  #8bc34a;
+$color-light-green-600:  #7cb342;
+$color-light-green-700:  #689f38;
+$color-light-green-800:  #558b2f;
+$color-light-green-900:  #33691e;
+$color-light-green-A100: #ccff90;
+$color-light-green-A200: #b2ff59;
+$color-light-green-A400: #76ff03;
+$color-light-green-A700: #64dd17;
 
 // Foreground
-$color-light-green-list-foreground: (
+$color-light-green-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -788,22 +788,22 @@ $color-light-green-list-foreground: (
     "A700": #000000,
 );
 
-$color-light-green-foreground:      map-get($color-light-green-list-foreground, "500");
+$color-light-green-foreground: #8bc34a;
 
-$color-light-green-50-foreground:   map-get($color-light-green-list-foreground, "50");
-$color-light-green-100-foreground:  map-get($color-light-green-list-foreground, "100");
-$color-light-green-200-foreground:  map-get($color-light-green-list-foreground, "200");
-$color-light-green-300-foreground:  map-get($color-light-green-list-foreground, "300");
-$color-light-green-400-foreground:  map-get($color-light-green-list-foreground, "400");
-$color-light-green-500-foreground:  map-get($color-light-green-list-foreground, "500");
-$color-light-green-600-foreground:  map-get($color-light-green-list-foreground, "600");
-$color-light-green-700-foreground:  map-get($color-light-green-list-foreground, "700");
-$color-light-green-800-foreground:  map-get($color-light-green-list-foreground, "800");
-$color-light-green-900-foreground:  map-get($color-light-green-list-foreground, "900");
-$color-light-green-A100-foreground: map-get($color-light-green-list-foreground, "A100");
-$color-light-green-A200-foreground: map-get($color-light-green-list-foreground, "A200");
-$color-light-green-A400-foreground: map-get($color-light-green-list-foreground, "A400");
-$color-light-green-A700-foreground: map-get($color-light-green-list-foreground, "A700");
+$color-light-green-50-foreground:   #f1f8e9;
+$color-light-green-100-foreground:  #dcedc8;
+$color-light-green-200-foreground:  #c5e1a5;
+$color-light-green-300-foreground:  #aed581;
+$color-light-green-400-foreground:  #9ccc65;
+$color-light-green-500-foreground:  #8bc34a;
+$color-light-green-600-foreground:  #7cb342;
+$color-light-green-700-foreground:  #689f38;
+$color-light-green-800-foreground:  #558b2f;
+$color-light-green-900-foreground:  #33691e;
+$color-light-green-A100-foreground: #ccff90;
+$color-light-green-A200-foreground: #b2ff59;
+$color-light-green-A400-foreground: #76ff03;
+$color-light-green-A700-foreground: #64dd17;
 
 
 //
@@ -826,25 +826,25 @@ $color-lime-list: (
     "A700": #aeea00,
 );
 
-$color-lime:      map-get($color-lime-list, "500");
+$color-lime: #cddc39;
 
-$color-lime-50:   map-get($color-lime-list, "50");
-$color-lime-100:  map-get($color-lime-list, "100");
-$color-lime-200:  map-get($color-lime-list, "200");
-$color-lime-300:  map-get($color-lime-list, "300");
-$color-lime-400:  map-get($color-lime-list, "400");
-$color-lime-500:  map-get($color-lime-list, "500");
-$color-lime-600:  map-get($color-lime-list, "600");
-$color-lime-700:  map-get($color-lime-list, "700");
-$color-lime-800:  map-get($color-lime-list, "800");
-$color-lime-900:  map-get($color-lime-list, "900");
-$color-lime-A100: map-get($color-lime-list, "A100");
-$color-lime-A200: map-get($color-lime-list, "A200");
-$color-lime-A400: map-get($color-lime-list, "A400");
-$color-lime-A700: map-get($color-lime-list, "A700");
+$color-lime-50:   #f9fbe7;
+$color-lime-100:  #f0f4c3;
+$color-lime-200:  #e6ee9c;
+$color-lime-300:  #dce775;
+$color-lime-400:  #d4e157;
+$color-lime-500:  #cddc39;
+$color-lime-600:  #c0ca33;
+$color-lime-700:  #afb42b;
+$color-lime-800:  #9e9d24;
+$color-lime-900:  #827717;
+$color-lime-A100: #f4ff81;
+$color-lime-A200: #eeff41;
+$color-lime-A400: #c6ff00;
+$color-lime-A700: #aeea00;
 
 // Foreground
-$color-lime-list-foreground: (
+$color-lime-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -861,22 +861,22 @@ $color-lime-list-foreground: (
     "A700": #000000,
 );
 
-$color-lime-foreground:      map-get($color-lime-list-foreground, "500");
+$color-lime-foreground: #cddc39;
 
-$color-lime-50-foreground:   map-get($color-lime-list-foreground, "50");
-$color-lime-100-foreground:  map-get($color-lime-list-foreground, "100");
-$color-lime-200-foreground:  map-get($color-lime-list-foreground, "200");
-$color-lime-300-foreground:  map-get($color-lime-list-foreground, "300");
-$color-lime-400-foreground:  map-get($color-lime-list-foreground, "400");
-$color-lime-500-foreground:  map-get($color-lime-list-foreground, "500");
-$color-lime-600-foreground:  map-get($color-lime-list-foreground, "600");
-$color-lime-700-foreground:  map-get($color-lime-list-foreground, "700");
-$color-lime-800-foreground:  map-get($color-lime-list-foreground, "800");
-$color-lime-900-foreground:  map-get($color-lime-list-foreground, "900");
-$color-lime-A100-foreground: map-get($color-lime-list-foreground, "A100");
-$color-lime-A200-foreground: map-get($color-lime-list-foreground, "A200");
-$color-lime-A400-foreground: map-get($color-lime-list-foreground, "A400");
-$color-lime-A700-foreground: map-get($color-lime-list-foreground, "A700");
+$color-lime-50-foreground:   #f9fbe7;
+$color-lime-100-foreground:  #f0f4c3;
+$color-lime-200-foreground:  #e6ee9c;
+$color-lime-300-foreground:  #dce775;
+$color-lime-400-foreground:  #d4e157;
+$color-lime-500-foreground:  #cddc39;
+$color-lime-600-foreground:  #c0ca33;
+$color-lime-700-foreground:  #afb42b;
+$color-lime-800-foreground:  #9e9d24;
+$color-lime-900-foreground:  #827717;
+$color-lime-A100-foreground: #f4ff81;
+$color-lime-A200-foreground: #eeff41;
+$color-lime-A400-foreground: #c6ff00;
+$color-lime-A700-foreground: #aeea00;
 
 
 //
@@ -899,25 +899,25 @@ $color-yellow-list: (
     "A700": #ffd600,
 );
 
-$color-yellow:      map-get($color-yellow-list, "500");
+$color-yellow: #ffeb3b;
 
-$color-yellow-50:   map-get($color-yellow-list, "50");
-$color-yellow-100:  map-get($color-yellow-list, "100");
-$color-yellow-200:  map-get($color-yellow-list, "200");
-$color-yellow-300:  map-get($color-yellow-list, "300");
-$color-yellow-400:  map-get($color-yellow-list, "400");
-$color-yellow-500:  map-get($color-yellow-list, "500");
-$color-yellow-600:  map-get($color-yellow-list, "600");
-$color-yellow-700:  map-get($color-yellow-list, "700");
-$color-yellow-800:  map-get($color-yellow-list, "800");
-$color-yellow-900:  map-get($color-yellow-list, "900");
-$color-yellow-A100: map-get($color-yellow-list, "A100");
-$color-yellow-A200: map-get($color-yellow-list, "A200");
-$color-yellow-A400: map-get($color-yellow-list, "A400");
-$color-yellow-A700: map-get($color-yellow-list, "A700");
+$color-yellow-50:   #fffde7;
+$color-yellow-100:  #fff9c4;
+$color-yellow-200:  #fff59d;
+$color-yellow-300:  #fff176;
+$color-yellow-400:  #ffee58;
+$color-yellow-500:  #ffeb3b;
+$color-yellow-600:  #fdd835;
+$color-yellow-700:  #fbc02d;
+$color-yellow-800:  #f9a825;
+$color-yellow-900:  #f57f17;
+$color-yellow-A100: #ffff8d;
+$color-yellow-A200: #ffff00;
+$color-yellow-A400: #ffea00;
+$color-yellow-A700: #ffd600;
 
 // Foreground
-$color-yellow-list-foreground: (
+$color-yellow-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -934,22 +934,22 @@ $color-yellow-list-foreground: (
     "A700": #000000,
 );
 
-$color-yellow-foreground:      map-get($color-yellow-list-foreground, "500");
+$color-yellow-foreground: #ffeb3b;
 
-$color-yellow-50-foreground:   map-get($color-yellow-list-foreground, "50");
-$color-yellow-100-foreground:  map-get($color-yellow-list-foreground, "100");
-$color-yellow-200-foreground:  map-get($color-yellow-list-foreground, "200");
-$color-yellow-300-foreground:  map-get($color-yellow-list-foreground, "300");
-$color-yellow-400-foreground:  map-get($color-yellow-list-foreground, "400");
-$color-yellow-500-foreground:  map-get($color-yellow-list-foreground, "500");
-$color-yellow-600-foreground:  map-get($color-yellow-list-foreground, "600");
-$color-yellow-700-foreground:  map-get($color-yellow-list-foreground, "700");
-$color-yellow-800-foreground:  map-get($color-yellow-list-foreground, "800");
-$color-yellow-900-foreground:  map-get($color-yellow-list-foreground, "900");
-$color-yellow-A100-foreground: map-get($color-yellow-list-foreground, "A100");
-$color-yellow-A200-foreground: map-get($color-yellow-list-foreground, "A200");
-$color-yellow-A400-foreground: map-get($color-yellow-list-foreground, "A400");
-$color-yellow-A700-foreground: map-get($color-yellow-list-foreground, "A700");
+$color-yellow-50-foreground:   #fffde7;
+$color-yellow-100-foreground:  #fff9c4;
+$color-yellow-200-foreground:  #fff59d;
+$color-yellow-300-foreground:  #fff176;
+$color-yellow-400-foreground:  #ffee58;
+$color-yellow-500-foreground:  #ffeb3b;
+$color-yellow-600-foreground:  #fdd835;
+$color-yellow-700-foreground:  #fbc02d;
+$color-yellow-800-foreground:  #f9a825;
+$color-yellow-900-foreground:  #f57f17;
+$color-yellow-A100-foreground: #ffff8d;
+$color-yellow-A200-foreground: #ffff00;
+$color-yellow-A400-foreground: #ffea00;
+$color-yellow-A700-foreground: #ffd600;
 
 
 //
@@ -972,25 +972,25 @@ $color-amber-list: (
     "A700": #ffab00,
 );
 
-$color-amber:      map-get($color-amber-list, "500");
+$color-amber: #ffc107;
 
-$color-amber-50:   map-get($color-amber-list, "50");
-$color-amber-100:  map-get($color-amber-list, "100");
-$color-amber-200:  map-get($color-amber-list, "200");
-$color-amber-300:  map-get($color-amber-list, "300");
-$color-amber-400:  map-get($color-amber-list, "400");
-$color-amber-500:  map-get($color-amber-list, "500");
-$color-amber-600:  map-get($color-amber-list, "600");
-$color-amber-700:  map-get($color-amber-list, "700");
-$color-amber-800:  map-get($color-amber-list, "800");
-$color-amber-900:  map-get($color-amber-list, "900");
-$color-amber-A100: map-get($color-amber-list, "A100");
-$color-amber-A200: map-get($color-amber-list, "A200");
-$color-amber-A400: map-get($color-amber-list, "A400");
-$color-amber-A700: map-get($color-amber-list, "A700");
+$color-amber-50:   #fff8e1;
+$color-amber-100:  #ffecb3;
+$color-amber-200:  #ffe082;
+$color-amber-300:  #ffd54f;
+$color-amber-400:  #ffca28;
+$color-amber-500:  #ffc107;
+$color-amber-600:  #ffb300;
+$color-amber-700:  #ffa000;
+$color-amber-800:  #ff8f00;
+$color-amber-900:  #ff6f00;
+$color-amber-A100: #ffe57f;
+$color-amber-A200: #ffd740;
+$color-amber-A400: #ffc400;
+$color-amber-A700: #ffab00;
 
 // Foreground
-$color-amber-list-foreground: (
+$color-amber-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -1007,22 +1007,22 @@ $color-amber-list-foreground: (
     "A700": #000000,
 );
 
-$color-amber-foreground:      map-get($color-amber-list-foreground, "500");
+$color-amber-foreground: #ffc107;
 
-$color-amber-50-foreground:   map-get($color-amber-list-foreground, "50");
-$color-amber-100-foreground:  map-get($color-amber-list-foreground, "100");
-$color-amber-200-foreground:  map-get($color-amber-list-foreground, "200");
-$color-amber-300-foreground:  map-get($color-amber-list-foreground, "300");
-$color-amber-400-foreground:  map-get($color-amber-list-foreground, "400");
-$color-amber-500-foreground:  map-get($color-amber-list-foreground, "500");
-$color-amber-600-foreground:  map-get($color-amber-list-foreground, "600");
-$color-amber-700-foreground:  map-get($color-amber-list-foreground, "700");
-$color-amber-800-foreground:  map-get($color-amber-list-foreground, "800");
-$color-amber-900-foreground:  map-get($color-amber-list-foreground, "900");
-$color-amber-A100-foreground: map-get($color-amber-list-foreground, "A100");
-$color-amber-A200-foreground: map-get($color-amber-list-foreground, "A200");
-$color-amber-A400-foreground: map-get($color-amber-list-foreground, "A400");
-$color-amber-A700-foreground: map-get($color-amber-list-foreground, "A700");
+$color-amber-50-foreground:   #fff8e1;
+$color-amber-100-foreground:  #ffecb3;
+$color-amber-200-foreground:  #ffe082;
+$color-amber-300-foreground:  #ffd54f;
+$color-amber-400-foreground:  #ffca28;
+$color-amber-500-foreground:  #ffc107;
+$color-amber-600-foreground:  #ffb300;
+$color-amber-700-foreground:  #ffa000;
+$color-amber-800-foreground:  #ff8f00;
+$color-amber-900-foreground:  #ff6f00;
+$color-amber-A100-foreground: #ffe57f;
+$color-amber-A200-foreground: #ffd740;
+$color-amber-A400-foreground: #ffc400;
+$color-amber-A700-foreground: #ffab00;
 
 
 //
@@ -1045,25 +1045,25 @@ $color-orange-list: (
     "A700": #ff6d00,
 );
 
-$color-orange:      map-get($color-orange-list, "500");
+$color-orange: #ff9800;
 
-$color-orange-50:   map-get($color-orange-list, "50");
-$color-orange-100:  map-get($color-orange-list, "100");
-$color-orange-200:  map-get($color-orange-list, "200");
-$color-orange-300:  map-get($color-orange-list, "300");
-$color-orange-400:  map-get($color-orange-list, "400");
-$color-orange-500:  map-get($color-orange-list, "500");
-$color-orange-600:  map-get($color-orange-list, "600");
-$color-orange-700:  map-get($color-orange-list, "700");
-$color-orange-800:  map-get($color-orange-list, "800");
-$color-orange-900:  map-get($color-orange-list, "900");
-$color-orange-A100: map-get($color-orange-list, "A100");
-$color-orange-A200: map-get($color-orange-list, "A200");
-$color-orange-A400: map-get($color-orange-list, "A400");
-$color-orange-A700: map-get($color-orange-list, "A700");
+$color-orange-50:   #fff3e0;
+$color-orange-100:  #ffe0b2;
+$color-orange-200:  #ffcc80;
+$color-orange-300:  #ffb74d;
+$color-orange-400:  #ffa726;
+$color-orange-500:  #ff9800;
+$color-orange-600:  #fb8c00;
+$color-orange-700:  #f57c00;
+$color-orange-800:  #ef6c00;
+$color-orange-900:  #e65100;
+$color-orange-A100: #ffd180;
+$color-orange-A200: #ffab40;
+$color-orange-A400: #ff9100;
+$color-orange-A700: #ff6d00;
 
 // Foreground
-$color-orange-list-foreground: (
+$color-orange-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -1080,22 +1080,22 @@ $color-orange-list-foreground: (
     "A700": #000000,
 );
 
-$color-orange-foreground:      map-get($color-orange-list-foreground, "500");
+$color-orange-foreground: #ff9800;
 
-$color-orange-50-foreground:   map-get($color-orange-list-foreground, "50");
-$color-orange-100-foreground:  map-get($color-orange-list-foreground, "100");
-$color-orange-200-foreground:  map-get($color-orange-list-foreground, "200");
-$color-orange-300-foreground:  map-get($color-orange-list-foreground, "300");
-$color-orange-400-foreground:  map-get($color-orange-list-foreground, "400");
-$color-orange-500-foreground:  map-get($color-orange-list-foreground, "500");
-$color-orange-600-foreground:  map-get($color-orange-list-foreground, "600");
-$color-orange-700-foreground:  map-get($color-orange-list-foreground, "700");
-$color-orange-800-foreground:  map-get($color-orange-list-foreground, "800");
-$color-orange-900-foreground:  map-get($color-orange-list-foreground, "900");
-$color-orange-A100-foreground: map-get($color-orange-list-foreground, "A100");
-$color-orange-A200-foreground: map-get($color-orange-list-foreground, "A200");
-$color-orange-A400-foreground: map-get($color-orange-list-foreground, "A400");
-$color-orange-A700-foreground: map-get($color-orange-list-foreground, "A700");
+$color-orange-50-foreground:   #fff3e0;
+$color-orange-100-foreground:  #ffe0b2;
+$color-orange-200-foreground:  #ffcc80;
+$color-orange-300-foreground:  #ffb74d;
+$color-orange-400-foreground:  #ffa726;
+$color-orange-500-foreground:  #ff9800;
+$color-orange-600-foreground:  #fb8c00;
+$color-orange-700-foreground:  #f57c00;
+$color-orange-800-foreground:  #ef6c00;
+$color-orange-900-foreground:  #e65100;
+$color-orange-A100-foreground: #ffd180;
+$color-orange-A200-foreground: #ffab40;
+$color-orange-A400-foreground: #ff9100;
+$color-orange-A700-foreground: #ff6d00;
 
 
 //
@@ -1118,25 +1118,25 @@ $color-deep-orange-list: (
     "A700": #dd2c00,
 );
 
-$color-deep-orange:      map-get($color-deep-orange-list, "500");
+$color-deep-orange: #ff5722;
 
-$color-deep-orange-50:   map-get($color-deep-orange-list, "50");
-$color-deep-orange-100:  map-get($color-deep-orange-list, "100");
-$color-deep-orange-200:  map-get($color-deep-orange-list, "200");
-$color-deep-orange-300:  map-get($color-deep-orange-list, "300");
-$color-deep-orange-400:  map-get($color-deep-orange-list, "400");
-$color-deep-orange-500:  map-get($color-deep-orange-list, "500");
-$color-deep-orange-600:  map-get($color-deep-orange-list, "600");
-$color-deep-orange-700:  map-get($color-deep-orange-list, "700");
-$color-deep-orange-800:  map-get($color-deep-orange-list, "800");
-$color-deep-orange-900:  map-get($color-deep-orange-list, "900");
-$color-deep-orange-A100: map-get($color-deep-orange-list, "A100");
-$color-deep-orange-A200: map-get($color-deep-orange-list, "A200");
-$color-deep-orange-A400: map-get($color-deep-orange-list, "A400");
-$color-deep-orange-A700: map-get($color-deep-orange-list, "A700");
+$color-deep-orange-50:   #fbe9e7;
+$color-deep-orange-100:  #ffccbc;
+$color-deep-orange-200:  #ffab91;
+$color-deep-orange-300:  #ff8a65;
+$color-deep-orange-400:  #ff7043;
+$color-deep-orange-500:  #ff5722;
+$color-deep-orange-600:  #f4511e;
+$color-deep-orange-700:  #e64a19;
+$color-deep-orange-800:  #d84315;
+$color-deep-orange-900:  #bf360c;
+$color-deep-orange-A100: #ff9e80;
+$color-deep-orange-A200: #ff6e40;
+$color-deep-orange-A400: #ff3d00;
+$color-deep-orange-A700: #dd2c00;
 
 // Foreground
-$color-deep-orange-list-foreground: (
+$color-deep-orange-foreground-list: (
     "50":   #000000,
     "100":  #000000,
     "200":  #000000,
@@ -1153,22 +1153,22 @@ $color-deep-orange-list-foreground: (
     "A700": #ffffff,
 );
 
-$color-deep-orange-foreground:      map-get($color-deep-orange-list-foreground, "500");
+$color-deep-orange-foreground: #ff5722;
 
-$color-deep-orange-50-foreground:   map-get($color-deep-orange-list-foreground, "50");
-$color-deep-orange-100-foreground:  map-get($color-deep-orange-list-foreground, "100");
-$color-deep-orange-200-foreground:  map-get($color-deep-orange-list-foreground, "200");
-$color-deep-orange-300-foreground:  map-get($color-deep-orange-list-foreground, "300");
-$color-deep-orange-400-foreground:  map-get($color-deep-orange-list-foreground, "400");
-$color-deep-orange-500-foreground:  map-get($color-deep-orange-list-foreground, "500");
-$color-deep-orange-600-foreground:  map-get($color-deep-orange-list-foreground, "600");
-$color-deep-orange-700-foreground:  map-get($color-deep-orange-list-foreground, "700");
-$color-deep-orange-800-foreground:  map-get($color-deep-orange-list-foreground, "800");
-$color-deep-orange-900-foreground:  map-get($color-deep-orange-list-foreground, "900");
-$color-deep-orange-A100-foreground: map-get($color-deep-orange-list-foreground, "A100");
-$color-deep-orange-A200-foreground: map-get($color-deep-orange-list-foreground, "A200");
-$color-deep-orange-A400-foreground: map-get($color-deep-orange-list-foreground, "A400");
-$color-deep-orange-A700-foreground: map-get($color-deep-orange-list-foreground, "A700");
+$color-deep-orange-50-foreground:   #fbe9e7;
+$color-deep-orange-100-foreground:  #ffccbc;
+$color-deep-orange-200-foreground:  #ffab91;
+$color-deep-orange-300-foreground:  #ff8a65;
+$color-deep-orange-400-foreground:  #ff7043;
+$color-deep-orange-500-foreground:  #ff5722;
+$color-deep-orange-600-foreground:  #f4511e;
+$color-deep-orange-700-foreground:  #e64a19;
+$color-deep-orange-800-foreground:  #d84315;
+$color-deep-orange-900-foreground:  #bf360c;
+$color-deep-orange-A100-foreground: #ff9e80;
+$color-deep-orange-A200-foreground: #ff6e40;
+$color-deep-orange-A400-foreground: #ff3d00;
+$color-deep-orange-A700-foreground: #dd2c00;
 
 
 //
@@ -1187,21 +1187,21 @@ $color-brown-list: (
     "900": #3e2723,
 );
 
-$color-brown:     map-get($color-brown-list, "500");
+$color-brown: #795548;
 
-$color-brown-50:  map-get($color-brown-list, "50");
-$color-brown-100: map-get($color-brown-list, "100");
-$color-brown-200: map-get($color-brown-list, "200");
-$color-brown-300: map-get($color-brown-list, "300");
-$color-brown-400: map-get($color-brown-list, "400");
-$color-brown-500: map-get($color-brown-list, "500");
-$color-brown-600: map-get($color-brown-list, "600");
-$color-brown-700: map-get($color-brown-list, "700");
-$color-brown-800: map-get($color-brown-list, "800");
-$color-brown-900: map-get($color-brown-list, "900");
+$color-brown-50:  #efebe9;
+$color-brown-100: #d7ccc8;
+$color-brown-200: #bcaaa4;
+$color-brown-300: #a1887f;
+$color-brown-400: #8d6e63;
+$color-brown-500: #795548;
+$color-brown-600: #6d4c41;
+$color-brown-700: #5d4037;
+$color-brown-800: #4e342e;
+$color-brown-900: #3e2723;
 
 // Foreground
-$color-brown-list-foreground: (
+$color-brown-foreground-list: (
     "50":  #000000,
     "100": #000000,
     "200": #000000,
@@ -1214,18 +1214,18 @@ $color-brown-list-foreground: (
     "900": #ffffff,
 );
 
-$color-brown-foreground:     map-get($color-brown-list-foreground, "500");
+$color-brown-foreground: #795548;
 
-$color-brown-50-foreground:  map-get($color-brown-list-foreground, "50");
-$color-brown-100-foreground: map-get($color-brown-list-foreground, "100");
-$color-brown-200-foreground: map-get($color-brown-list-foreground, "200");
-$color-brown-300-foreground: map-get($color-brown-list-foreground, "300");
-$color-brown-400-foreground: map-get($color-brown-list-foreground, "400");
-$color-brown-500-foreground: map-get($color-brown-list-foreground, "500");
-$color-brown-600-foreground: map-get($color-brown-list-foreground, "600");
-$color-brown-700-foreground: map-get($color-brown-list-foreground, "700");
-$color-brown-800-foreground: map-get($color-brown-list-foreground, "800");
-$color-brown-900-foreground: map-get($color-brown-list-foreground, "900");
+$color-brown-50-foreground:  #efebe9;
+$color-brown-100-foreground: #d7ccc8;
+$color-brown-200-foreground: #bcaaa4;
+$color-brown-300-foreground: #a1887f;
+$color-brown-400-foreground: #8d6e63;
+$color-brown-500-foreground: #795548;
+$color-brown-600-foreground: #6d4c41;
+$color-brown-700-foreground: #5d4037;
+$color-brown-800-foreground: #4e342e;
+$color-brown-900-foreground: #3e2723;
 
 
 //
@@ -1244,21 +1244,21 @@ $color-grey-list: (
     "900": #212121,
 );
 
-$color-grey:     map-get($color-grey-list, "500");
+$color-grey: #9e9e9e;
 
-$color-grey-50:  map-get($color-grey-list, "50");
-$color-grey-100: map-get($color-grey-list, "100");
-$color-grey-200: map-get($color-grey-list, "200");
-$color-grey-300: map-get($color-grey-list, "300");
-$color-grey-400: map-get($color-grey-list, "400");
-$color-grey-500: map-get($color-grey-list, "500");
-$color-grey-600: map-get($color-grey-list, "600");
-$color-grey-700: map-get($color-grey-list, "700");
-$color-grey-800: map-get($color-grey-list, "800");
-$color-grey-900: map-get($color-grey-list, "900");
+$color-grey-50:  #fafafa;
+$color-grey-100: #f5f5f5;
+$color-grey-200: #eeeeee;
+$color-grey-300: #e0e0e0;
+$color-grey-400: #bdbdbd;
+$color-grey-500: #9e9e9e;
+$color-grey-600: #757575;
+$color-grey-700: #616161;
+$color-grey-800: #424242;
+$color-grey-900: #212121;
 
 // Foreground
-$color-grey-list-foreground: (
+$color-grey-foreground-list: (
     "50":  #000000,
     "100": #000000,
     "200": #000000,
@@ -1271,18 +1271,18 @@ $color-grey-list-foreground: (
     "900": #ffffff,
 );
 
-$color-grey-foreground:     map-get($color-grey-list-foreground, "500");
+$color-grey-foreground: #9e9e9e;
 
-$color-grey-50-foreground:  map-get($color-grey-list-foreground, "50");
-$color-grey-100-foreground: map-get($color-grey-list-foreground, "100");
-$color-grey-200-foreground: map-get($color-grey-list-foreground, "200");
-$color-grey-300-foreground: map-get($color-grey-list-foreground, "300");
-$color-grey-400-foreground: map-get($color-grey-list-foreground, "400");
-$color-grey-500-foreground: map-get($color-grey-list-foreground, "500");
-$color-grey-600-foreground: map-get($color-grey-list-foreground, "600");
-$color-grey-700-foreground: map-get($color-grey-list-foreground, "700");
-$color-grey-800-foreground: map-get($color-grey-list-foreground, "800");
-$color-grey-900-foreground: map-get($color-grey-list-foreground, "900");
+$color-grey-50-foreground:  #fafafa;
+$color-grey-100-foreground: #f5f5f5;
+$color-grey-200-foreground: #eeeeee;
+$color-grey-300-foreground: #e0e0e0;
+$color-grey-400-foreground: #bdbdbd;
+$color-grey-500-foreground: #9e9e9e;
+$color-grey-600-foreground: #757575;
+$color-grey-700-foreground: #616161;
+$color-grey-800-foreground: #424242;
+$color-grey-900-foreground: #212121;
 
 
 //
@@ -1301,21 +1301,21 @@ $color-blue-grey-list: (
     "900": #263238,
 );
 
-$color-blue-grey:     map-get($color-blue-grey-list, "500");
+$color-blue-grey: #607d8b;
 
-$color-blue-grey-50:  map-get($color-blue-grey-list, "50");
-$color-blue-grey-100: map-get($color-blue-grey-list, "100");
-$color-blue-grey-200: map-get($color-blue-grey-list, "200");
-$color-blue-grey-300: map-get($color-blue-grey-list, "300");
-$color-blue-grey-400: map-get($color-blue-grey-list, "400");
-$color-blue-grey-500: map-get($color-blue-grey-list, "500");
-$color-blue-grey-600: map-get($color-blue-grey-list, "600");
-$color-blue-grey-700: map-get($color-blue-grey-list, "700");
-$color-blue-grey-800: map-get($color-blue-grey-list, "800");
-$color-blue-grey-900: map-get($color-blue-grey-list, "900");
+$color-blue-grey-50:  #eceff1;
+$color-blue-grey-100: #cfd8dc;
+$color-blue-grey-200: #b0bec5;
+$color-blue-grey-300: #90a4ae;
+$color-blue-grey-400: #78909c;
+$color-blue-grey-500: #607d8b;
+$color-blue-grey-600: #546e7a;
+$color-blue-grey-700: #455a64;
+$color-blue-grey-800: #37474f;
+$color-blue-grey-900: #263238;
 
 // Foreground
-$color-blue-grey-list-foreground: (
+$color-blue-grey-foreground-list: (
     "50":  #000000,
     "100": #000000,
     "200": #000000,
@@ -1328,17 +1328,17 @@ $color-blue-grey-list-foreground: (
     "900": #ffffff,
 );
 
-$color-blue-grey-foreground:     map-get($color-blue-grey-list-foreground, "500");
+$color-blue-grey-foreground: #607d8b;
 
-$color-blue-grey-50-foreground:  map-get($color-blue-grey-list-foreground, "50");
-$color-blue-grey-100-foreground: map-get($color-blue-grey-list-foreground, "100");
-$color-blue-grey-200-foreground: map-get($color-blue-grey-list-foreground, "200");
-$color-blue-grey-300-foreground: map-get($color-blue-grey-list-foreground, "300");
-$color-blue-grey-400-foreground: map-get($color-blue-grey-list-foreground, "400");
-$color-blue-grey-500-foreground: map-get($color-blue-grey-list-foreground, "500");
-$color-blue-grey-600-foreground: map-get($color-blue-grey-list-foreground, "600");
-$color-blue-grey-700-foreground: map-get($color-blue-grey-list-foreground, "700");
-$color-blue-grey-800-foreground: map-get($color-blue-grey-list-foreground, "800");
-$color-blue-grey-900-foreground: map-get($color-blue-grey-list-foreground, "900");
+$color-blue-grey-50-foreground:  #eceff1;
+$color-blue-grey-100-foreground: #cfd8dc;
+$color-blue-grey-200-foreground: #b0bec5;
+$color-blue-grey-300-foreground: #90a4ae;
+$color-blue-grey-400-foreground: #78909c;
+$color-blue-grey-500-foreground: #607d8b;
+$color-blue-grey-600-foreground: #546e7a;
+$color-blue-grey-700-foreground: #455a64;
+$color-blue-grey-800-foreground: #37474f;
+$color-blue-grey-900-foreground: #263238;
 
 

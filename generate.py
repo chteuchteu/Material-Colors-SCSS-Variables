@@ -12,6 +12,34 @@ foreground_color_light = '#ffffff'
 foreground_color_dark = '#000000'
 
 
+def print_scss_list(output_handle, list_name, keys, values):
+    output_handle.write('$' + list_name + ': (\n')
+
+    longest_key = max(len(key) for key in keys)
+    pattern = '    "{key}": {indent}{value},\n'
+
+    for key, value in zip(keys, values):
+        output_handle.write(fill_placeholders(pattern, {
+            'key': key,
+            'value': value,
+            'indent': ' ' * (longest_key - len(key))
+        }))
+
+    output_handle.write(');\n')
+
+
+def print_scss_vars(output_handle, names, values):
+    indent = max(len(name) for name in names)
+    pattern = '${var_name}: {indent}{value};\n'
+
+    for name, value in zip(names, values):
+        output_handle.write(fill_placeholders(pattern, {
+            'var_name': name,
+            'value': value,
+            'indent': ' ' * (indent - len(name))
+        }))
+
+
 def has_class(element, classname):
     class_attr = element.get('class')
 
@@ -83,78 +111,45 @@ with open(output_file, 'w') as output:
             '//',
             ''
         ]))
-        longest_key = max(len(shade['name']) for shade in shades)  # Pretty indentation
 
         # List
-        pattern_list_item = '    "{shade_name}": {indent}{hex},\n'
-        list_name = '$color-' + color_slug + '-list'
-        output.write(list_name + ': (\n')
+        print_scss_list(output, 'color-' + color_slug + '-list',
+                        [shade['name'] for shade in shades],
+                        [shade['hex'] for shade in shades])
 
-        for shade in shades:
-            output.write(fill_placeholders(pattern_list_item, {
-                'shade_name': shade['name'],
-                'indent': ' ' * (longest_key - len(shade['name'])),
-                'hex': shade['hex']
-            }))
-
-        output.write(');\n\n')
-
-        # Separate colors
-        pattern_variable = '$color-{var_name}: {indent}map-get({color_list_name}, "{shade_name}");\n'
-
-        # Main shade
-        main_shade = next((shade for shade in shades if shade['name'] == '500'))
-        output.write(fill_placeholders(pattern_variable, {
-            'var_name': color_slug,
-            'shade_name': main_shade['name'],
-            'indent': ' ' * (longest_key + 1),
-            'color_list_name': list_name
-        }))
         output.write('\n')
 
-        for shade in shades:
-            output.write(fill_placeholders(pattern_variable, {
-                'var_name': color_slug + '-' + shade['name'],
-                'shade_name': shade['name'],
-                'indent': ' ' * (longest_key - len(shade['name'])),
-                'color_list_name': list_name
-            }))
+        # Separate colors
+        # Main shade
+        main_shade = next(shade for shade in shades if shade['name'] == '500')
+        print_scss_vars(output, ['color-' + color_slug], [main_shade['hex']])
+        output.write('\n')
+
+        # All shades
+        print_scss_vars(output,
+                        ['color-' + color_slug + '-' + shade['name'] for shade in shades],
+                        [shade['hex'] for shade in shades])
 
         # Foreground color
-        foreground_color_list_name = list_name + '-foreground'
         output.writelines('\n'.join([
             '',
             '// Foreground',
-            foreground_color_list_name + ': (\n'
+            ''
         ]))
+        print_scss_list(output, 'color-' + color_slug + '-foreground-list',
+                        [shade['name'] for shade in shades],
+                        [shade['foreground'] for shade in shades])
 
-        for shade in shades:
-            output.write(fill_placeholders(pattern_list_item, {
-                'shade_name': shade['name'],
-                'indent': ' ' * (longest_key - len(shade['name'])),
-                'hex': shade['foreground']
-            }))
-
-        output.write(');\n\n')
-
-        # Separate colors
-        pattern_variable_foreground = '$color-{var_name}-foreground: {indent}map-get({foreground_color_list_name}, "{shade_name}");\n'
-
-        # Main shade
-        output.write(fill_placeholders(pattern_variable_foreground, {
-            'var_name': color_slug,
-            'shade_name': main_shade['name'],
-            'indent': ' ' * (longest_key + 1),
-            'foreground_color_list_name': foreground_color_list_name
-        }))
         output.write('\n')
 
-        for shade in shades:
-            output.write(fill_placeholders(pattern_variable_foreground, {
-                'var_name': color_slug + '-' + shade['name'],
-                'shade_name': shade['name'],
-                'indent': ' ' * (longest_key - len(shade['name'])),
-                'foreground_color_list_name': foreground_color_list_name
-            }))
+        # Separate colors
+        # Main shade
+        main_shade = next(shade for shade in shades if shade['name'] == '500')
+        print_scss_vars(output, ['color-' + color_slug + '-foreground'], [main_shade['hex']])
+        output.write('\n')
+
+        print_scss_vars(output,
+                        ['color-' + color_slug + '-' + shade['name'] + '-foreground' for shade in shades],
+                        [shade['hex'] for shade in shades])
 
         output.write('\n\n')
