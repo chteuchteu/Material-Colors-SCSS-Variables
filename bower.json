@@ -13,5 +13,9 @@
     "vars",
     "variables"
   ],
+  "ignore": [
+    "**/.*",
+    "generate.py"
+  ]
   "license": "GPL-2.0"
 }
