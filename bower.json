@@ -1,0 +1,17 @@
+{
+  "name": "material-scss-colors",
+  "homepage": "https://github.com/chteuchteu/Material-Colors-SCSS-Variables",
+  "authors": [
+    "Quentin Stoeckel <chteuchteu@gmail.com>"
+  ],
+  "description": "Material colors as SCSS variables",
+  "main": "dist/_material-colors.scss",
+  "keywords": [
+    "material",
+    "colors",
+    "scss",
+    "vars",
+    "variables"
+  ],
+  "license": "GPL-2.0"
+}
