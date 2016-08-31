@@ -3,13 +3,18 @@
 
 import urllib.request
 from bs4 import BeautifulSoup
-from slugify import slugify
+import re
 
 material_guidelines_url = 'http://www.google.com/design/spec/style/color.html#color-color-palette'
 output_file = 'dist/_material-colors.scss'
 
 foreground_color_light = '#ffffff'
 foreground_color_dark = '#000000'
+
+
+def slugify(string):
+    return re.sub(r'[-\s]+', '-',
+                  (re.sub(r'[^\w\s-]', '', string).strip().lower()))
 
 
 def print_scss_map(output_handle, name, keys, values):
