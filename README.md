@@ -3,7 +3,7 @@ The other libraries lacked foreground (text) color information, so I wrote this.
 The `generate.py` downloads & parses Material Design guidelines's color palette
 in order to generate [`dist/_material-colors.scss`](https://github.com/chteuchteu/Material-Colors-SCSS-Variables/blob/master/dist/_material-colors.scss).
 
-# How to use this
+## How to use this
 
 ```scss
 $color-primary: $color-blue-700;
@@ -13,6 +13,23 @@ $color-primary: $color-blue-700;
     color: $color-red-700-foreground;
 }
 ```
+
+### Using npm/yarn
+1. Add npm dependency
+
+    ```bash
+    npm install --save material-scss-colors
+
+    # or, using yarn
+    yarn add material-scss-colors
+    ```
+
+2. Reference SCSS part file using relative path
+
+    ```scss
+    /* style.scss */
+    @import '../../../node_modules/material-scss-colors/dist/material-colors';
+    ```
 
 ### Using bower
 1. Add bower depency
