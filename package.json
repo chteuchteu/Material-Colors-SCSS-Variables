@@ -1,0 +1,23 @@
+{
+  "name": "material-scss-colors",
+  "version": "1.1.2",
+  "description": "Material colors as SCSS variables",
+  "main": "dist/_material-colors.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chteuchteu/Material-Colors-SCSS-Variables.git"
+  },
+  "keywords": [
+    "material",
+    "scss"
+  ],
+  "author": "Quentin S.",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/chteuchteu/Material-Colors-SCSS-Variables/issues"
+  },
+  "homepage": "https://github.com/chteuchteu/Material-Colors-SCSS-Variables#readme"
+}
